@@ -24,16 +24,12 @@ jobs:
         with:
           r-version: '4.5'      # GitHub will pick the latest patch (currently 4.5.2)
 
-      # 3a ▸ Install archived/non-CRAN R packages
-      - name: Install archived/non-CRAN R packages
-        run: |
-          Rscript -e 'install.packages("remotes")'
-          Rscript -e 'remotes::install_url("https://github.com/kcuilla/reactablefmtr/archive/refs/heads/main.tar.gz")'
-
-      # 3b ▸ Install required R packages (CRAN)
+      # 3 ▸ Install required R packages
       - name: Install R package dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
+          extra-packages: |
+            github::kcuilla/reactablefmtr
           needs: |
             cluster
             ClusterR
@@ -62,8 +58,8 @@ jobs:
             SimplyAgree
             tidyverse
             webexercises
-          cache: true         # uncomment to enable dependency caching
-
+          cache: true
+          
       # 4 ▸ Install Quarto
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
