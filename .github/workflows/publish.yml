@@ -29,20 +29,34 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           needs: |
-            tidyverse
-            lubridate
-            SimplyAgree
+            cluster
+            ClusterR
+            condformat
             DescTools
+            DT
+            easystats
+            factoextra
+            flextable
             fmsb
-            scales
-            janitor
-            psych
+            formatR
+            formattable
             here
             irr
+            janitor
+            kableExtra
+            knitr
+            lubridate
             magrittr
-            flextable
+            mclust
+            NbClust
+            parameters
+            plotly
+            psych
+            reactablefmtr
+            scales
+            SimplyAgree
+            tidyverse
             webexercises
-            DT
             cache: true         # uncomment to enable dependency caching
 
       # 4 ▸ Install Quarto
