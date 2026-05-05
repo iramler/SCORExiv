@@ -24,12 +24,11 @@ jobs:
         with:
           r-version: '4.5'      # GitHub will pick the latest patch (currently 4.5.2)
 
-      # 3a ▸ Install non-CRAN R packages
-      - name: Install non-CRAN R packages
+      # 3a ▸ Install archived/non-CRAN R packages
+      - name: Install archived/non-CRAN R packages
         run: |
           Rscript -e 'install.packages("remotes")'
-          Rscript -e 'remotes::install_github("kcuilla/reactablefmtr@main")'
-
+          Rscript -e 'remotes::install_url("https://github.com/kcuilla/reactablefmtr/archive/refs/heads/main.tar.gz")'
 
       # 3b ▸ Install required R packages (CRAN)
       - name: Install R package dependencies
