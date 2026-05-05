@@ -34,8 +34,8 @@ website:
         text: Data Repository
       - href: https://scorenetwork.org/index.html
         text: SCORE Network
-      - href: https://modules.scorenetwork.org/#preprint-servers
-        text: Preprint Modules
+#      - href: https://modules.scorenetwork.org/#preprint-servers
+#        text: Preprint Modules
         
     right:
 #      - icon: twitter

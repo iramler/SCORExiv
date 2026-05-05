@@ -42,6 +42,7 @@ jobs:
             magrittr
             flextable
             webexercises
+            DT
             cache: true         # uncomment to enable dependency caching
 
       # 4 ▸ Install Quarto
