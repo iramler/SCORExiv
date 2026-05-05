@@ -23,7 +23,7 @@ Instructors and students are still welcome to use these preprints. Additionally,
 Browse all modules below. Use the sidebar to filter by sport or visit [by statistics and data science topic](by-statsds-topic.qmd).
 :::
 
-::: {#all-modules}
+::: {#preprint-modules}
 :::
 
 

@@ -2,12 +2,18 @@
 title: "Exploring Justin Verlander's pitch type by count"
 description: |
   An introduction to 2D categorical data
-author: Ron Yurko
+author:
+  - name: Ron Yurko
+    email: ryurko@andrew.cmu.edu
+    affiliation: 
+      - id: cmu
+        name: Carnegie Mellon University
 date: July 9, 2024
 categories:
   - 2D categorical data
   - chi-squared test
   - mosaic plots
+image: 500px-Justin_Verlander_(51005083107)_(cropped).jpg
 ---
 
 ## Motivation
@@ -31,3 +37,8 @@ The dataset and description are available at the [SCORE Network Data Repository]
 ## Module
 
 This module was created with ISLE: [https://isle.stat.cmu.edu/SCORE/pitchtype/](https://isle.stat.cmu.edu/SCORE/pitchtype/)
+
+
+<!--
+By <a rel="nofollow" class="external text" href="https://www.flickr.com/people/192355779@N02">Jeffrey Hayes</a> - <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/192355779@N02/51005083107/">Justin Verlander</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=122206869">Link</a>
+-->
