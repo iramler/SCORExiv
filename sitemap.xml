@@ -2,18 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iramler.github.io/SCORExiv/by-statsds-topic.html</loc>
-    <lastmod>2026-05-05T17:41:22.788Z</lastmod>
+    <lastmod>2026-05-05T18:17:52.222Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/index.html</loc>
+    <lastmod>2026-05-05T18:23:03.214Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/baseball/index.html</loc>
-    <lastmod>2026-05-05T18:04:35.641Z</lastmod>
+    <lastmod>2026-05-05T18:23:03.207Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/index.html</loc>
-    <lastmod>2026-05-05T17:41:22.788Z</lastmod>
+    <lastmod>2026-05-05T18:17:52.222Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/baseball/verlander-pitchtype/index.html</loc>
-    <lastmod>2026-05-05T17:41:22.788Z</lastmod>
+    <lastmod>2026-05-05T18:17:52.220Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/nba-rapm/index.html</loc>
+    <lastmod>2026-05-05T18:17:52.220Z</lastmod>
   </url>
 </urlset>

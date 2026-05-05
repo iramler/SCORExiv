@@ -4,10 +4,21 @@
     "href": "by-statsds-topic.html",
     "title": "📊 Modules by Statistics and Data Science Topic",
     "section": "",
-    "text": "Exploring Justin Verlander’s pitch type by count\n\n\n\n2D categorical data\n\nchi-squared test\n\nmosaic plots\n\n\n\nAn introduction to 2D categorical data\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\nNo matching items",
+    "text": "Introduction to regularized adjusted plus-minus (RAPM)\n\n\n\nridge regression\n\npenalized regression\n\nregularization\n\nlinear regression\n\nadjusted plus-minus\n\n\n\nAn introduction to ridge regression in the context of estimating basketball player effects.\n\n\n\n\n\nJul 16, 2024\n\n\nRon Yurko, Quang Nguyen\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Justin Verlander’s pitch type by count\n\n\n\n2D categorical data\n\nchi-squared test\n\nmosaic plots\n\n\n\nAn introduction to 2D categorical data\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "📊 Modules by Statistics and Data Science Topic"
+    ]
+  },
+  {
+    "objectID": "basketball/index.html",
+    "href": "basketball/index.html",
+    "title": "Basketball",
+    "section": "",
+    "text": "These modules use basketball data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to regularized adjusted plus-minus (RAPM)\n\n\n\nridge regression\n\npenalized regression\n\nregularization\n\nlinear regression\n\nadjusted plus-minus\n\n\n\nAn introduction to ridge regression in the context of estimating basketball player effects.\n\n\n\n\n\nJul 16, 2024\n\n\nRon Yurko, Quang Nguyen\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Basketball"
     ]
   },
   {
@@ -33,7 +44,7 @@
     "href": "index.html#all-modules",
     "title": "SCORE Preprint Module Repository",
     "section": "All Modules",
-    "text": "All Modules\n\n\n\n\n\n\nBrowse all modules below. Use the sidebar to filter by sport or visit by statistics and data science topic."
+    "text": "All Modules\n\n\n\n\n\n\nBrowse all modules below. Use the sidebar to filter by sport or visit by statistics and data science topic.\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to regularized adjusted plus-minus (RAPM)\n\n\n\nridge regression\n\npenalized regression\n\nregularization\n\nlinear regression\n\nadjusted plus-minus\n\n\n\nAn introduction to ridge regression in the context of estimating basketball player effects.\n\n\n\n\n\nJul 16, 2024\n\n\nRon Yurko, Quang Nguyen\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Justin Verlander’s pitch type by count\n\n\n\n2D categorical data\n\nchi-squared test\n\nmosaic plots\n\n\n\nAn introduction to 2D categorical data\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#contributing-andor-joining-the-score-network",
@@ -107,6 +118,66 @@
       "Home",
       "Baseball",
       "Exploring Justin Verlander's pitch type by count"
+    ]
+  },
+  {
+    "objectID": "basketball/nba-rapm/index.html",
+    "href": "basketball/nba-rapm/index.html",
+    "title": "Introduction to regularized adjusted plus-minus (RAPM)",
+    "section": "",
+    "text": "Measuring a player’s effect on game outcomes is one of the most fundamental tasks in sports analytics. But this is not a simple thing to do, and varies greatly between sports! In the National Basketball Association (NBA), traditional box-score statistics provide a limited view of a player’s performance. In order to measure an individual player’s contribution, it is necessary to adjust for the presence of their teammates and opposition. Different versions of regularized adjusted plus-minus (RAPM) models are popular approaches in the basketball analytics community for attempting to address this challenge. In this module, you will build a RAPM model in R for NBA players in an attempt to estimate an individual player’s effect when on the court.",
+    "crumbs": [
+      "Home",
+      "Basketball",
+      "Introduction to regularized adjusted plus-minus (RAPM)"
+    ]
+  },
+  {
+    "objectID": "basketball/nba-rapm/index.html#motivation",
+    "href": "basketball/nba-rapm/index.html#motivation",
+    "title": "Introduction to regularized adjusted plus-minus (RAPM)",
+    "section": "",
+    "text": "Measuring a player’s effect on game outcomes is one of the most fundamental tasks in sports analytics. But this is not a simple thing to do, and varies greatly between sports! In the National Basketball Association (NBA), traditional box-score statistics provide a limited view of a player’s performance. In order to measure an individual player’s contribution, it is necessary to adjust for the presence of their teammates and opposition. Different versions of regularized adjusted plus-minus (RAPM) models are popular approaches in the basketball analytics community for attempting to address this challenge. In this module, you will build a RAPM model in R for NBA players in an attempt to estimate an individual player’s effect when on the court.",
+    "crumbs": [
+      "Home",
+      "Basketball",
+      "Introduction to regularized adjusted plus-minus (RAPM)"
+    ]
+  },
+  {
+    "objectID": "basketball/nba-rapm/index.html#learning-objectives",
+    "href": "basketball/nba-rapm/index.html#learning-objectives",
+    "title": "Introduction to regularized adjusted plus-minus (RAPM)",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this module, you will be able to:\n\nFit, interpret, and understand the limitations of adjusted plus-minus models.\nUnderstand the role of penalization in ridge regression.\nBecome familiar with basics of implementing ridge regression in R with glmnet.\nFit, interpret, and evaluate players using regularized adjusted plus-minus models.",
+    "crumbs": [
+      "Home",
+      "Basketball",
+      "Introduction to regularized adjusted plus-minus (RAPM)"
+    ]
+  },
+  {
+    "objectID": "basketball/nba-rapm/index.html#data",
+    "href": "basketball/nba-rapm/index.html#data",
+    "title": "Introduction to regularized adjusted plus-minus (RAPM)",
+    "section": "Data",
+    "text": "Data\nThe dataset and description are available at the SCORE Network Data Repository.",
+    "crumbs": [
+      "Home",
+      "Basketball",
+      "Introduction to regularized adjusted plus-minus (RAPM)"
+    ]
+  },
+  {
+    "objectID": "basketball/nba-rapm/index.html#module-materials",
+    "href": "basketball/nba-rapm/index.html#module-materials",
+    "title": "Introduction to regularized adjusted plus-minus (RAPM)",
+    "section": "Module Materials",
+    "text": "Module Materials\n\n\n\n\n\n\nWarningPrerequisites\n\n\n\nPrior to working on through this module, students are expected to know the following:\n\nFamiliar with R and basic tidyverse data wrangling functions.\nExposure to linear regression.\nFamiliar with cross-validation.\n\nThe module has sections indicating which portions are challenging exercises, and is designed to take an undergraduate student roughly 3-4 hours to complete.\n\n\nStudent assignment qmd file\nView instructor solutions",
+    "crumbs": [
+      "Home",
+      "Basketball",
+      "Introduction to regularized adjusted plus-minus (RAPM)"
     ]
   }
 ]

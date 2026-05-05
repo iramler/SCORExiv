@@ -7,10 +7,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ron Yurko">
-<meta name="dcterms.date" content="2024-07-09">
-<meta name="description" content="An introduction to 2D categorical data">
+<meta name="author" content="Quang Nguyen">
+<meta name="dcterms.date" content="2024-07-16">
+<meta name="description" content="An introduction to ridge regression in the context of estimating basketball player effects.">
 
-<title>Exploring Justin Verlander’s pitch type by count – SCORE Module Repository</title>
+<title>Introduction to regularized adjusted plus-minus (RAPM) – SCORE Module Repository</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -157,7 +158,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../baseball/index.html">Baseball</a></li><li class="breadcrumb-item"><a href="../../baseball/verlander-pitchtype/index.html">Exploring Justin Verlander’s pitch type by count</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../basketball/index.html">Basketball</a></li><li class="breadcrumb-item"><a href="../../basketball/nba-rapm/index.html">Introduction to regularized adjusted plus-minus (RAPM)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -179,14 +180,14 @@ cookieconsent.run({
       <div class="sidebar-item-container"> 
             <a href="../../baseball/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Baseball</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../baseball/verlander-pitchtype/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../baseball/verlander-pitchtype/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Exploring Justin Verlander’s pitch type by count</span></a>
   </div>
 </li>
@@ -196,14 +197,14 @@ cookieconsent.run({
       <div class="sidebar-item-container"> 
             <a href="../../basketball/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Basketball</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../basketball/nba-rapm/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../basketball/nba-rapm/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Introduction to regularized adjusted plus-minus (RAPM)</span></a>
   </div>
 </li>
@@ -222,35 +223,45 @@ cookieconsent.run({
   <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
-  <li><a href="#module" id="toc-module" class="nav-link" data-scroll-target="#module">Module</a></li>
+  <li><a href="#module-materials" id="toc-module-materials" class="nav-link" data-scroll-target="#module-materials">Module Materials</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/iramler/SCORExiv/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../baseball/index.html">Baseball</a></li><li class="breadcrumb-item"><a href="../../baseball/verlander-pitchtype/index.html">Exploring Justin Verlander’s pitch type by count</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../basketball/index.html">Basketball</a></li><li class="breadcrumb-item"><a href="../../basketball/nba-rapm/index.html">Introduction to regularized adjusted plus-minus (RAPM)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Exploring Justin Verlander’s pitch type by count</h1>
+<h1 class="title">Introduction to regularized adjusted plus-minus (RAPM)</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">2D categorical data</div>
-    <div class="quarto-category">chi-squared test</div>
-    <div class="quarto-category">mosaic plots</div>
+    <div class="quarto-category">ridge regression</div>
+    <div class="quarto-category">penalized regression</div>
+    <div class="quarto-category">regularization</div>
+    <div class="quarto-category">linear regression</div>
+    <div class="quarto-category">adjusted plus-minus</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>An introduction to 2D categorical data</p>
+    <p>An introduction to ridge regression in the context of estimating basketball player effects.</p>
   </div>
 </div>
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Authors</div>
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
     <p class="author">Ron Yurko <a href="mailto:ryurko@andrew.cmu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Carnegie Mellon University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Quang Nguyen <a href="mailto:quang@stat.cmu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -265,7 +276,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 9, 2024</p>
+      <p class="date">July 16, 2024</p>
     </div>
   </div>
   
@@ -279,28 +290,45 @@ cookieconsent.run({
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>After nearly two full seasons due to injury, at the age of 39 <a href="https://www.baseball-reference.com/players/v/verlaju01.shtml">Justin Verlander</a> returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into <a href="https://www.usatoday.com/story/sports/mlb/2018/10/13/how-justin-verlander-became-better-pitcher-astros/1628624002/">Verlander’s recent success with the Astros</a>. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts).</p>
-<p>As defined above, pitch type and count are categorical variables. In this module, you will work with datasets of pitches thrown by Justin Verlander during both the 2019 (see 2019 Pitches tab) and 2022 season (see 2022 Pitches tab). You will learn about exploring, testing, and visualizing 2D categorical data to discover if there is a relationship between the count and the type of pitch Verlander throws.</p>
+<p>Measuring a player’s effect on game outcomes is one of the most fundamental tasks in sports analytics. But this is not a simple thing to do, and varies greatly between sports! In the National Basketball Association (NBA), traditional box-score statistics provide a limited view of a player’s performance. In order to measure an individual player’s contribution, it is necessary to adjust for the presence of their teammates and opposition. Different versions of <strong>regularized adjusted plus-minus (RAPM)</strong> models are popular approaches in the basketball analytics community for attempting to address this challenge. In this module, you will build a RAPM model in <code>R</code> for NBA players in an attempt to estimate an individual player’s effect when on the court.</p>
 </section>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this module, you will be able to:</p>
 <ol type="1">
-<li>Create and assess different visualizations of 2D categorical data.</li>
-<li>Conduct and interpret chi-squared tests of independence.</li>
-<li>Create mosaic plots to assess relationship between two categorical variables.</li>
+<li>Fit, interpret, and understand the limitations of adjusted plus-minus models.</li>
+<li>Understand the role of penalization in ridge regression.</li>
+<li>Become familiar with basics of implementing ridge regression in <code>R</code> with <code>glmnet</code>.</li>
+<li>Fit, interpret, and evaluate players using regularized adjusted plus-minus models.</li>
 </ol>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>The dataset and description are available at the <a href="https://data.scorenetwork.org/baseball/verlander-pitches.html">SCORE Network Data Repository</a>.</p>
+<p>The dataset and description are available at the <a href="https://data.scorenetwork.org/basketball/nba-rapm-data.html">SCORE Network Data Repository</a>.</p>
 </section>
-<section id="module" class="level2">
-<h2 class="anchored" data-anchor-id="module">Module</h2>
-<p>This module was created with ISLE: <a href="https://isle.stat.cmu.edu/SCORE/pitchtype/">https://isle.stat.cmu.edu/SCORE/pitchtype/</a></p>
-<!--
-By <a rel="nofollow" class="external text" href="https://www.flickr.com/people/192355779@N02">Jeffrey Hayes</a> - <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/192355779@N02/51005083107/">Justin Verlander</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=122206869">Link</a>
--->
+<section id="module-materials" class="level2">
+<h2 class="anchored" data-anchor-id="module-materials">Module Materials</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Prerequisites
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Prior to working on through this module, students are expected to know the following:</p>
+<ul>
+<li>Familiar with <code>R</code> and basic <a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf"><code>tidyverse</code> data wrangling functions</a>.</li>
+<li>Exposure to linear regression.</li>
+<li>Familiar with cross-validation.</li>
+</ul>
+<p>The module has sections indicating which portions are challenging exercises, and is designed to take an undergraduate student roughly 3-4 hours to complete.</p>
+</div>
+</div>
+<p><a href="module_resources/_intro_nba_rapm.qmd">Student assignment qmd file</a></p>
+<p><a href="module_resources/intro_nba_rapm_SOLUTIONS.qmd">View instructor solutions</a></p>
 
 
 </section>

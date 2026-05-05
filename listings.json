@@ -2,7 +2,14 @@
   {
     "listing": "/by-statsds-topic.html",
     "items": [
+      "/basketball/nba-rapm/index.html",
       "/baseball/verlander-pitchtype/index.html"
+    ]
+  },
+  {
+    "listing": "/basketball/index.html",
+    "items": [
+      "/basketball/nba-rapm/index.html"
     ]
   },
   {
@@ -14,6 +21,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/basketball/nba-rapm/index.html",
       "/baseball/verlander-pitchtype/index.html"
     ]
   }
