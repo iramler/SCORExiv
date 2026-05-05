@@ -28,7 +28,7 @@ jobs:
       - name: Install non-CRAN R packages
         run: |
           Rscript -e 'install.packages("remotes")'
-          Rscript -e 'remotes::install_github("kcuilla/reactablefmtr")'
+          Rscript -e 'remotes::install_github("kcuilla/reactablefmtr@main")'
 
 
       # 3b ▸ Install required R packages (CRAN)
