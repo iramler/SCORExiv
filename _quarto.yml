@@ -1,0 +1,59 @@
+project:
+  type: website
+  render: 
+    - "index.qmd"
+    - "*/index.qmd" # new sport pages
+    - "*/*/index.qmd" # module pages
+    - "by-statsds-topic.qmd"
+  resources:
+    - "_img/default_thumbnail.png" # provide default thumbnail
+  
+metadata-files:
+  - sidebar-sports.yml
+
+website:
+  title: "SCORE Module Repository"
+  google-analytics: "G-D8W3NNYGGP"
+  cookie-consent:
+    type: implied
+    prefs-text: "Manage cookies"
+  page-footer: 
+    center:
+      Maintained by [Ivan Ramler](https://www.stlawu.edu/people/ivan-ramler)
+      
+      We use cookies to track usage statistics 
+      to help measure impact of the materials
+      for authors. Please consider allowing 
+      tracking cookies.
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+ #     - by-statsds-topic.qmd
+      - href: https://data.scorenetwork.org/
+        text: Data Repository
+      - href: https://scorenetwork.org/index.html
+        text: SCORE Network
+      - href: https://modules.scorenetwork.org/#preprint-servers
+        text: Preprint Modules
+        
+    right:
+#      - icon: twitter
+#        href: https://twitter.com/scorenetworkorg
+      - icon: linkedin
+        href: https://www.linkedin.com/company/scorenetworkorg/
+  sidebar:
+    contents: auto
+    collapse-level: 1
+  repo-url: https://github.com/iramler/SCORExiv
+  repo-actions: [issue]
+
+format:
+  html:
+    theme:
+      - flatly
+      - score.scss
+    toc: true
+
+execute:
+  freeze: auto

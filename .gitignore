@@ -1,0 +1,28 @@
+_site/
+.quarto/
+docs/
+
+/.quarto/
+.Rproj.user
+
+/*.Rproj
+**/.DS_Store
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+.Ruserdata
+
+# Word temporary and autosave files
+~$*
+*.tmp
+*.bak
+*.wbk
+*.asd
+*.lnk
+*.lock
+*.docx~
