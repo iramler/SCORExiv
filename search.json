@@ -4,10 +4,21 @@
     "href": "by-statsds-topic.html",
     "title": "📊 Modules by Statistics and Data Science Topic",
     "section": "",
-    "text": "Exploring Justin Verlander’s pitch type by count\n\n\n\n\n\n\n2D categorical data\n\n\nchi-squared test\n\n\nmosaic plots\n\n\n\nAn introduction to 2D categorical data \n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items",
+    "text": "Exploring Justin Verlander’s pitch type by count\n\n\n\n2D categorical data\n\nchi-squared test\n\nmosaic plots\n\n\n\nAn introduction to 2D categorical data\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "📊 Modules by Statistics and Data Science Topic"
+    ]
+  },
+  {
+    "objectID": "baseball/index.html",
+    "href": "baseball/index.html",
+    "title": "Baseball",
+    "section": "",
+    "text": "These modules use baseball data to teach topics in statistics and data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Justin Verlander’s pitch type by count\n\n\n\n2D categorical data\n\nchi-squared test\n\nmosaic plots\n\n\n\nAn introduction to 2D categorical data\n\n\n\n\n\nJul 9, 2024\n\n\nRon Yurko\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Baseball"
     ]
   },
   {
@@ -30,13 +41,6 @@
     "title": "SCORE Preprint Module Repository",
     "section": "Contributing and/or Joining the SCORE Network",
     "text": "Contributing and/or Joining the SCORE Network\nInterested in submitting your own module? Click here to find out more information about the SCORE Network module submission process."
-  },
-  {
-    "objectID": "index.html#preprint-servers",
-    "href": "index.html#preprint-servers",
-    "title": "SCORE Preprint Module Repository",
-    "section": "Preprint Servers",
-    "text": "Preprint Servers\nYou can also access preprint repositories maintained by members of the SCORE Network. These preprint repositories are created and maintained by faculty and students from the respective institutions. Please note that these materials have not yet completed the required pedagogical and industry peer reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\n\nCarnegie Mellon University\nSt. Lawrence University\nBaylor University + Azusa Pacific University\nWest Point"
   },
   {
     "objectID": "index.html#funding-source",
