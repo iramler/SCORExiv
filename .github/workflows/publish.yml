@@ -24,7 +24,14 @@ jobs:
         with:
           r-version: '4.5'      # GitHub will pick the latest patch (currently 4.5.2)
 
-      # 3 ▸ Install required R packages (CRAN)
+      # 3a ▸ Install non-CRAN R packages
+      - name: Install non-CRAN R packages
+        run: |
+          install.packages("remotes")
+          remotes::install_github("kcuilla/reactablefmtr")
+
+
+      # 3b ▸ Install required R packages (CRAN)
       - name: Install R package dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
@@ -52,12 +59,11 @@ jobs:
             parameters
             plotly
             psych
-            reactablefmtr
             scales
             SimplyAgree
             tidyverse
             webexercises
-            cache: true         # uncomment to enable dependency caching
+          cache: true         # uncomment to enable dependency caching
 
       # 4 ▸ Install Quarto
       - name: Set up Quarto
