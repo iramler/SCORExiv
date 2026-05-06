@@ -2,6 +2,8 @@
   {
     "listing": "/by-statsds-topic.html",
     "items": [
+      "/basketball/Clustering/index.html",
+      "/basketball/conditional_probability/index.html",
       "/basketball/nba-rapm/index.html",
       "/baseball/verlander-pitchtype/index.html"
     ]
@@ -9,6 +11,8 @@
   {
     "listing": "/basketball/index.html",
     "items": [
+      "/basketball/Clustering/index.html",
+      "/basketball/conditional_probability/index.html",
       "/basketball/nba-rapm/index.html"
     ]
   },
@@ -21,6 +25,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/basketball/Clustering/index.html",
+      "/basketball/conditional_probability/index.html",
       "/basketball/nba-rapm/index.html",
       "/baseball/verlander-pitchtype/index.html"
     ]
