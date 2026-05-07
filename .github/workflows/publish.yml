@@ -42,6 +42,7 @@ jobs:
             "fmsb",
             "formatR",
             "formattable",
+            "ggmosaic",
             "gt",
             "here",
             "irr",
