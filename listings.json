@@ -3,8 +3,29 @@
     "listing": "/by-statsds-topic.html",
     "items": [
       "/basketball/Clustering/index.html",
+      "/golf/pga_gir_nor/index.html",
       "/basketball/conditional_probability/index.html",
+      "/golf/pga_gir/index.html",
       "/basketball/nba-rapm/index.html",
+      "/baseball/verlander-pitchtype/index.html",
+      "/combat_sports/mma_chisquare/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/basketball/Clustering/index.html",
+      "/golf/pga_gir_nor/index.html",
+      "/basketball/conditional_probability/index.html",
+      "/golf/pga_gir/index.html",
+      "/basketball/nba-rapm/index.html",
+      "/baseball/verlander-pitchtype/index.html",
+      "/combat_sports/mma_chisquare/index.html"
+    ]
+  },
+  {
+    "listing": "/baseball/index.html",
+    "items": [
       "/baseball/verlander-pitchtype/index.html"
     ]
   },
@@ -17,18 +38,16 @@
     ]
   },
   {
-    "listing": "/baseball/index.html",
+    "listing": "/combat_sports/index.html",
     "items": [
-      "/baseball/verlander-pitchtype/index.html"
+      "/combat_sports/mma_chisquare/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/golf/index.html",
     "items": [
-      "/basketball/Clustering/index.html",
-      "/basketball/conditional_probability/index.html",
-      "/basketball/nba-rapm/index.html",
-      "/baseball/verlander-pitchtype/index.html"
+      "/golf/pga_gir_nor/index.html",
+      "/golf/pga_gir/index.html"
     ]
   }
 ]

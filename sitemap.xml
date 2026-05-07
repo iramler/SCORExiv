@@ -2,34 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iramler.github.io/SCORExiv/by-statsds-topic.html</loc>
-    <lastmod>2026-05-06T16:32:30.148Z</lastmod>
+    <lastmod>2026-05-07T19:43:24.864Z</lastmod>
   </url>
   <url>
-    <loc>https://iramler.github.io/SCORExiv/basketball/index.html</loc>
-    <lastmod>2026-05-06T16:36:40.474Z</lastmod>
+    <loc>https://iramler.github.io/SCORExiv/golf/pga_gir/index.html</loc>
+    <lastmod>2026-05-07T19:43:24.907Z</lastmod>
   </url>
   <url>
-    <loc>https://iramler.github.io/SCORExiv/basketball/Clustering/index.html</loc>
-    <lastmod>2026-05-06T16:32:30.115Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iramler.github.io/SCORExiv/baseball/index.html</loc>
-    <lastmod>2026-05-06T16:36:40.467Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iramler.github.io/SCORExiv/index.html</loc>
-    <lastmod>2026-05-06T16:32:30.148Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iramler.github.io/SCORExiv/baseball/verlander-pitchtype/index.html</loc>
-    <lastmod>2026-05-06T16:32:30.085Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iramler.github.io/SCORExiv/basketball/conditional_probability/index.html</loc>
-    <lastmod>2026-05-06T16:32:30.144Z</lastmod>
+    <loc>https://iramler.github.io/SCORExiv/combat_sports/mma_chisquare/index.html</loc>
+    <lastmod>2026-05-07T19:43:24.865Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/basketball/nba-rapm/index.html</loc>
-    <lastmod>2026-05-06T16:32:30.146Z</lastmod>
+    <lastmod>2026-05-07T19:43:24.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/conditional_probability/index.html</loc>
+    <lastmod>2026-05-07T19:43:24.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/baseball/verlander-pitchtype/index.html</loc>
+    <lastmod>2026-05-07T19:43:24.807Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/index.html</loc>
+    <lastmod>2026-05-07T19:43:24.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/baseball/index.html</loc>
+    <lastmod>2026-05-07T19:49:44.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/Clustering/index.html</loc>
+    <lastmod>2026-05-07T19:43:24.834Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/index.html</loc>
+    <lastmod>2026-05-07T19:49:44.350Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/combat_sports/index.html</loc>
+    <lastmod>2026-05-07T19:49:44.350Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/golf/index.html</loc>
+    <lastmod>2026-05-07T19:49:44.351Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/golf/pga_gir_nor/index.html</loc>
+    <lastmod>2026-05-07T19:43:24.911Z</lastmod>
   </url>
 </urlset>
