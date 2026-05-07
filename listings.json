@@ -3,24 +3,50 @@
     "listing": "/by-statsds-topic.html",
     "items": [
       "/basketball/Clustering/index.html",
+      "/football_american/nfl-point-spread-inference/index.html",
+      "/basketball/nba_wingspans_and_performance/index.html",
+      "/basketball/nba_sga_sampling_distributions/index.html",
+      "/canoeing/canoe_racing_clinton_distributions/index.html",
+      "/canoeing/canoe_racing_clinton/index.html",
+      "/canoeing/raisin_river_regression/index.html",
       "/golf/pga_gir_nor/index.html",
+      "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html",
       "/basketball/conditional_probability/index.html",
       "/golf/pga_gir/index.html",
       "/basketball/nba-rapm/index.html",
       "/baseball/verlander-pitchtype/index.html",
-      "/combat_sports/mma_chisquare/index.html"
+      "/basketball/nba_draft_anova_intermediate/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
+      "/combat_sports/mma_chisquare/index.html",
+      "/disc_golf/dgpt_correlations/index.html",
+      "/handball/handball-bundesliga/index.html",
+      "/ice_hockey/pwhl_season1_visualizations/index.html",
+      "/basketball/wnba_data_quality/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/ice_hockey/index.html",
+    "items": [
+      "/ice_hockey/pwhl_season1_visualizations/index.html"
+    ]
+  },
+  {
+    "listing": "/disc_golf/index.html",
+    "items": [
+      "/disc_golf/dgpt_correlations/index.html"
+    ]
+  },
+  {
+    "listing": "/basketball/index.html",
     "items": [
       "/basketball/Clustering/index.html",
-      "/golf/pga_gir_nor/index.html",
+      "/basketball/nba_wingspans_and_performance/index.html",
+      "/basketball/nba_sga_sampling_distributions/index.html",
       "/basketball/conditional_probability/index.html",
-      "/golf/pga_gir/index.html",
       "/basketball/nba-rapm/index.html",
-      "/baseball/verlander-pitchtype/index.html",
-      "/combat_sports/mma_chisquare/index.html"
+      "/basketball/nba_draft_anova_intermediate/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
+      "/basketball/wnba_data_quality/index.html"
     ]
   },
   {
@@ -30,11 +56,36 @@
     ]
   },
   {
-    "listing": "/basketball/index.html",
+    "listing": "/index.html",
     "items": [
       "/basketball/Clustering/index.html",
+      "/football_american/nfl-point-spread-inference/index.html",
+      "/basketball/nba_wingspans_and_performance/index.html",
+      "/basketball/nba_sga_sampling_distributions/index.html",
+      "/canoeing/canoe_racing_clinton_distributions/index.html",
+      "/canoeing/canoe_racing_clinton/index.html",
+      "/canoeing/raisin_river_regression/index.html",
+      "/golf/pga_gir_nor/index.html",
+      "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html",
       "/basketball/conditional_probability/index.html",
-      "/basketball/nba-rapm/index.html"
+      "/golf/pga_gir/index.html",
+      "/basketball/nba-rapm/index.html",
+      "/baseball/verlander-pitchtype/index.html",
+      "/basketball/nba_draft_anova_intermediate/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
+      "/combat_sports/mma_chisquare/index.html",
+      "/disc_golf/dgpt_correlations/index.html",
+      "/handball/handball-bundesliga/index.html",
+      "/ice_hockey/pwhl_season1_visualizations/index.html",
+      "/basketball/wnba_data_quality/index.html"
+    ]
+  },
+  {
+    "listing": "/canoeing/index.html",
+    "items": [
+      "/canoeing/canoe_racing_clinton_distributions/index.html",
+      "/canoeing/canoe_racing_clinton/index.html",
+      "/canoeing/raisin_river_regression/index.html"
     ]
   },
   {
@@ -44,10 +95,28 @@
     ]
   },
   {
+    "listing": "/football_american/index.html",
+    "items": [
+      "/football_american/nfl-point-spread-inference/index.html"
+    ]
+  },
+  {
     "listing": "/golf/index.html",
     "items": [
       "/golf/pga_gir_nor/index.html",
       "/golf/pga_gir/index.html"
+    ]
+  },
+  {
+    "listing": "/gymnastics/index.html",
+    "items": [
+      "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html"
+    ]
+  },
+  {
+    "listing": "/handball/index.html",
+    "items": [
+      "/handball/handball-bundesliga/index.html"
     ]
   }
 ]

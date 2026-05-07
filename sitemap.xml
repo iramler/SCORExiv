@@ -2,54 +2,130 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iramler.github.io/SCORExiv/by-statsds-topic.html</loc>
-    <lastmod>2026-05-07T19:43:24.864Z</lastmod>
+    <lastmod>2026-05-07T20:05:34.781Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/ice_hockey/index.html</loc>
+    <lastmod>2026-05-07T20:08:08.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/handball/handball-bundesliga/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.826Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/golf/pga_gir/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.907Z</lastmod>
+    <lastmod>2026-05-07T20:05:34.818Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/football_american/nfl-point-spread-inference/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.816Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/disc_golf/index.html</loc>
+    <lastmod>2026-05-07T20:08:08.360Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/combat_sports/mma_chisquare/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.865Z</lastmod>
+    <lastmod>2026-05-07T20:05:34.794Z</lastmod>
   </url>
   <url>
-    <loc>https://iramler.github.io/SCORExiv/basketball/nba-rapm/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.862Z</lastmod>
+    <loc>https://iramler.github.io/SCORExiv/canoeing/raisin_river_regression/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.790Z</lastmod>
   </url>
   <url>
-    <loc>https://iramler.github.io/SCORExiv/basketball/conditional_probability/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.860Z</lastmod>
+    <loc>https://iramler.github.io/SCORExiv/canoeing/canoe_racing_clinton_distributions/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.789Z</lastmod>
   </url>
   <url>
-    <loc>https://iramler.github.io/SCORExiv/baseball/verlander-pitchtype/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.807Z</lastmod>
+    <loc>https://iramler.github.io/SCORExiv/basketball/wnba_data_quality/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.780Z</lastmod>
   </url>
   <url>
-    <loc>https://iramler.github.io/SCORExiv/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.913Z</lastmod>
+    <loc>https://iramler.github.io/SCORExiv/basketball/nba_sga_sampling_distributions/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.768Z</lastmod>
   </url>
   <url>
-    <loc>https://iramler.github.io/SCORExiv/baseball/index.html</loc>
-    <lastmod>2026-05-07T19:49:44.343Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iramler.github.io/SCORExiv/basketball/Clustering/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.834Z</lastmod>
+    <loc>https://iramler.github.io/SCORExiv/basketball/nba_draft_anova_intermediate/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.764Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/basketball/index.html</loc>
-    <lastmod>2026-05-07T19:49:44.350Z</lastmod>
+    <lastmod>2026-05-07T20:08:08.358Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/Clustering/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/baseball/index.html</loc>
+    <lastmod>2026-05-07T20:08:08.352Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/baseball/verlander-pitchtype/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/conditional_probability/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.760Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/nba-rapm/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/nba_draft_anova_intro/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.765Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/basketball/nba_wingspans_and_performance/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.769Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/canoeing/canoe_racing_clinton/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/canoeing/index.html</loc>
+    <lastmod>2026-05-07T20:08:08.359Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/combat_sports/index.html</loc>
-    <lastmod>2026-05-07T19:49:44.350Z</lastmod>
+    <lastmod>2026-05-07T20:08:08.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/disc_golf/dgpt_correlations/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/football_american/index.html</loc>
+    <lastmod>2026-05-07T20:08:08.361Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/golf/index.html</loc>
-    <lastmod>2026-05-07T19:49:44.351Z</lastmod>
+    <lastmod>2026-05-07T20:08:08.362Z</lastmod>
   </url>
   <url>
     <loc>https://iramler.github.io/SCORExiv/golf/pga_gir_nor/index.html</loc>
-    <lastmod>2026-05-07T19:43:24.911Z</lastmod>
+    <lastmod>2026-05-07T20:05:34.822Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/gymnastics/index.html</loc>
+    <lastmod>2026-05-07T20:08:08.362Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/handball/index.html</loc>
+    <lastmod>2026-05-07T20:08:08.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iramler.github.io/SCORExiv/ice_hockey/pwhl_season1_visualizations/index.html</loc>
+    <lastmod>2026-05-07T20:05:34.831Z</lastmod>
   </url>
 </urlset>
