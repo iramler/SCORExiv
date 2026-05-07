@@ -42,7 +42,6 @@ jobs:
             "fmsb",
             "formatR",
             "formattable",
-            "ggmosaic",
             "gt",
             "here",
             "irr",
@@ -62,8 +61,12 @@ jobs:
             "stringr",
             "tidyverse",
             "webexercises",
-
-            "github::kcuilla/reactablefmtr"
+            
+            
+            # GitHub Packages
+            "haleyjeppson/ggmosaic",
+            "kcuilla/reactablefmtr"
+            
           ))'
           
       # 4 ▸ Install Quarto
