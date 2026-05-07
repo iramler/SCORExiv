@@ -1,6 +1,21 @@
 ---
 title: "K-Means Clustering with NBA Data"
-author: "Caleb Skinner, Tony Munoz, Michael P.B. Gallaugher, Rodney X. Sturdivant"
+date: "6 May 2026"
+author:
+  - name: Caleb Skinner
+    email: cs222@rice.edu
+    affiliations:
+      - name: Baylor University
+  - name: Tony Munoz
+    affiliations:
+      - name: Baylor University
+  - name: Michael M. B. Gallaugher
+    affiliations:
+      - name: Baylor University
+  - name: Rodney X. Sturdivant
+    email: Rodney_Sturdivant@baylor.edu
+    affiliations:
+      - name: Baylor University
 format:
   html:
     self-contained: true
@@ -8,9 +23,13 @@ format:
     toc_float: true
     number_section: false
     highlight: tango
-editor: visual
 editor_options:
   chunk_output_type: console
+description: K-means clustering with NBA data
+categories:
+  - Clustering
+  - K-Means
+image: GettyImages-1258954517-nba-draft-2023.jpg.webp
 ---
 
 # Overview
@@ -1706,3 +1725,8 @@ Feel free to make the trades as complex as you wish, but try to choose something
 Defend your proposed trade using the cluster information. You may add in some basketball knowledge if you like.
 
 What do you think of this process? What are the strengths and weaknesses of evaluating a team based on cluster membership?
+
+
+<!--
+https://www.sportingnews.com/us/nba/news/nba-draft-2023-best-players-available-full-list/wnmwekhjuvulnejeei2gcdbk
+-->

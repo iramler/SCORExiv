@@ -42,6 +42,7 @@ jobs:
             "fmsb",
             "formatR",
             "formattable",
+            "gt",
             "here",
             "irr",
             "janitor",
@@ -60,6 +61,7 @@ jobs:
             "stringr",
             "tidyverse",
             "webexercises",
+
             "github::kcuilla/reactablefmtr"
           ))'
           
