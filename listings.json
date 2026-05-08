@@ -18,10 +18,17 @@
       "/basketball/nba_draft_anova_intermediate/index.html",
       "/basketball/nba_draft_anova_intro/index.html",
       "/combat_sports/mma_chisquare/index.html",
+      "/racket_sports/tennis_sampsize/index.html",
       "/disc_golf/dgpt_correlations/index.html",
       "/handball/handball-bundesliga/index.html",
       "/ice_hockey/pwhl_season1_visualizations/index.html",
       "/basketball/wnba_data_quality/index.html"
+    ]
+  },
+  {
+    "listing": "/racket_sports/index.html",
+    "items": [
+      "/racket_sports/tennis_sampsize/index.html"
     ]
   },
   {
@@ -74,6 +81,7 @@
       "/basketball/nba_draft_anova_intermediate/index.html",
       "/basketball/nba_draft_anova_intro/index.html",
       "/combat_sports/mma_chisquare/index.html",
+      "/racket_sports/tennis_sampsize/index.html",
       "/disc_golf/dgpt_correlations/index.html",
       "/handball/handball-bundesliga/index.html",
       "/ice_hockey/pwhl_season1_visualizations/index.html",
