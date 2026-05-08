@@ -7,7 +7,7 @@ author:
       - id: wp
         name: West Point
         
-date: "`r Sys.Date()`"
+date: "May 8, 2026"
 description: Model Assessment through TPR/FPR, PPV/NPV, and F1 Score
 editor: 
   canonical: true

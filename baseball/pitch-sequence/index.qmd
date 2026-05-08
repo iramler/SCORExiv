@@ -1,7 +1,7 @@
 ---
 title: "An Exploration of Pitch Sequencing in Baseball"
 author: "Max Felter, Matt Toner, and Rachel Gidaro"
-date: "`r Sys.Date()`"
+date: "May 8, 2026"
 description: Assessing pitch sequence through Transition Matrices
 editor: 
   canonical: true
