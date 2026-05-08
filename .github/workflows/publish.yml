@@ -31,6 +31,7 @@ jobs:
         run: |
           Rscript -e 'install.packages("pak")'
           Rscript -e 'pak::pkg_install(c(
+            "cowplot",
             "cluster",
             "ClusterR",
             "condformat",
@@ -43,6 +44,7 @@ jobs:
             "fmsb",
             "formatR",
             "formattable",
+            "ggridges",
             "gt",
             "here",
             "irr",
