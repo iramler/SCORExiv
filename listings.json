@@ -2,6 +2,8 @@
   {
     "listing": "/by-statsds-topic.html",
     "items": [
+      "/baseball/pitch-sequence/index.html",
+      "/baseball/predicting-all-stars/index.html",
       "/basketball/Clustering/index.html",
       "/skiing/giant_salom_womens_worldcup/index.html",
       "/football_american/nfl-point-spread-inference/index.html",
@@ -12,6 +14,7 @@
       "/canoeing/canoe_racing_clinton_distributions/index.html",
       "/canoeing/canoe_racing_clinton/index.html",
       "/canoeing/raisin_river_regression/index.html",
+      "/soccer/Footedness/index.html",
       "/golf/pga_gir_nor/index.html",
       "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html",
       "/basketball/conditional_probability/index.html",
@@ -19,15 +22,18 @@
       "/basketball/nba-rapm/index.html",
       "/volleyball/volleyball_timeouts_single_prop/index.html",
       "/baseball/verlander-pitchtype/index.html",
+      "/basketball/nba-ordinal-regression/index.html",
       "/basketball/nba_draft_anova_intermediate/index.html",
       "/basketball/nba_draft_anova_intro/index.html",
       "/combat_sports/mma_chisquare/index.html",
+      "/lacrosse/expected_goals/index.html",
       "/racket_sports/tennis_sampsize/index.html",
       "/ultimate_frisbee/college-ultimate-championship-statistics/index.html",
       "/racket_sports/atp_win_percentages_format_and_surface/index.html",
       "/disc_golf/dgpt_correlations/index.html",
       "/handball/handball-bundesliga/index.html",
       "/ice_hockey/pwhl_season1_visualizations/index.html",
+      "/obstacle_courses/West_Point_Indoor_Obstacle_Course/index.html",
       "/volleyball/ncaa_d1_2022-23/index.html",
       "/basketball/wnba_data_quality/index.html",
       "/multisport/olympics_beijing_medals/index.html",
@@ -38,6 +44,12 @@
     "listing": "/ultimate_frisbee/index.html",
     "items": [
       "/ultimate_frisbee/college-ultimate-championship-statistics/index.html"
+    ]
+  },
+  {
+    "listing": "/soccer/index.html",
+    "items": [
+      "/soccer/Footedness/index.html"
     ]
   },
   {
@@ -58,6 +70,18 @@
       "/racket_sports/pickleball_matched_pairs/index.html",
       "/racket_sports/tennis_sampsize/index.html",
       "/racket_sports/atp_win_percentages_format_and_surface/index.html"
+    ]
+  },
+  {
+    "listing": "/obstacle_courses/index.html",
+    "items": [
+      "/obstacle_courses/West_Point_Indoor_Obstacle_Course/index.html"
+    ]
+  },
+  {
+    "listing": "/lacrosse/index.html",
+    "items": [
+      "/lacrosse/expected_goals/index.html"
     ]
   },
   {
@@ -100,8 +124,32 @@
     ]
   },
   {
+    "listing": "/basketball/index.html",
+    "items": [
+      "/basketball/Clustering/index.html",
+      "/basketball/nba_wingspans_and_performance/index.html",
+      "/basketball/nba_sga_sampling_distributions/index.html",
+      "/basketball/conditional_probability/index.html",
+      "/basketball/nba-rapm/index.html",
+      "/basketball/nba-ordinal-regression/index.html",
+      "/basketball/nba_draft_anova_intermediate/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
+      "/basketball/wnba_data_quality/index.html"
+    ]
+  },
+  {
+    "listing": "/baseball/index.html",
+    "items": [
+      "/baseball/pitch-sequence/index.html",
+      "/baseball/predicting-all-stars/index.html",
+      "/baseball/verlander-pitchtype/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/baseball/pitch-sequence/index.html",
+      "/baseball/predicting-all-stars/index.html",
       "/basketball/Clustering/index.html",
       "/skiing/giant_salom_womens_worldcup/index.html",
       "/football_american/nfl-point-spread-inference/index.html",
@@ -112,6 +160,7 @@
       "/canoeing/canoe_racing_clinton_distributions/index.html",
       "/canoeing/canoe_racing_clinton/index.html",
       "/canoeing/raisin_river_regression/index.html",
+      "/soccer/Footedness/index.html",
       "/golf/pga_gir_nor/index.html",
       "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html",
       "/basketball/conditional_probability/index.html",
@@ -119,38 +168,22 @@
       "/basketball/nba-rapm/index.html",
       "/volleyball/volleyball_timeouts_single_prop/index.html",
       "/baseball/verlander-pitchtype/index.html",
+      "/basketball/nba-ordinal-regression/index.html",
       "/basketball/nba_draft_anova_intermediate/index.html",
       "/basketball/nba_draft_anova_intro/index.html",
       "/combat_sports/mma_chisquare/index.html",
+      "/lacrosse/expected_goals/index.html",
       "/racket_sports/tennis_sampsize/index.html",
       "/ultimate_frisbee/college-ultimate-championship-statistics/index.html",
       "/racket_sports/atp_win_percentages_format_and_surface/index.html",
       "/disc_golf/dgpt_correlations/index.html",
       "/handball/handball-bundesliga/index.html",
       "/ice_hockey/pwhl_season1_visualizations/index.html",
+      "/obstacle_courses/West_Point_Indoor_Obstacle_Course/index.html",
       "/volleyball/ncaa_d1_2022-23/index.html",
       "/basketball/wnba_data_quality/index.html",
       "/multisport/olympics_beijing_medals/index.html",
       "/softball/softball_div1/index.html"
-    ]
-  },
-  {
-    "listing": "/baseball/index.html",
-    "items": [
-      "/baseball/verlander-pitchtype/index.html"
-    ]
-  },
-  {
-    "listing": "/basketball/index.html",
-    "items": [
-      "/basketball/Clustering/index.html",
-      "/basketball/nba_wingspans_and_performance/index.html",
-      "/basketball/nba_sga_sampling_distributions/index.html",
-      "/basketball/conditional_probability/index.html",
-      "/basketball/nba-rapm/index.html",
-      "/basketball/nba_draft_anova_intermediate/index.html",
-      "/basketball/nba_draft_anova_intro/index.html",
-      "/basketball/wnba_data_quality/index.html"
     ]
   },
   {
