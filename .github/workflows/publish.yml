@@ -69,7 +69,7 @@ jobs:
             "pwr",
             "reshape2",
             "rmarkdown",
-            "RSQLite"
+            "RSQLite",
             "scales",
             "SimplyAgree",
             "stringr",
