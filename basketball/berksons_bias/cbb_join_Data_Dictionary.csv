@@ -1,0 +1,8 @@
+﻿Variable Name,Description
+player_name,Player name
+drafted,"Whether the player was drafted into the NBA, ""Yes"" or ""No"""
+GP,Total games played by player in college career
+min_total,Total minutes played by player in college career
+adjoe,"Player's weighted adjusted offensive efficiency over their college career, which represents the points they would score or contribute to in 100 individual possessions against an average defense"
+ht_rev,Player height in inches
+min_per,Minutes per game played by player in college career
