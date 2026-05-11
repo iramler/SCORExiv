@@ -2,6 +2,7 @@
   {
     "listing": "/by-statsds-topic.html",
     "items": [
+      "/basketball/berksons_bias/index.html",
       "/baseball/pitch-sequence/index.html",
       "/baseball/predicting-all-stars/index.html",
       "/basketball/Clustering/index.html",
@@ -126,6 +127,7 @@
   {
     "listing": "/basketball/index.html",
     "items": [
+      "/basketball/berksons_bias/index.html",
       "/basketball/Clustering/index.html",
       "/basketball/nba_wingspans_and_performance/index.html",
       "/basketball/nba_sga_sampling_distributions/index.html",
@@ -138,16 +140,9 @@
     ]
   },
   {
-    "listing": "/baseball/index.html",
-    "items": [
-      "/baseball/pitch-sequence/index.html",
-      "/baseball/predicting-all-stars/index.html",
-      "/baseball/verlander-pitchtype/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/basketball/berksons_bias/index.html",
       "/baseball/pitch-sequence/index.html",
       "/baseball/predicting-all-stars/index.html",
       "/basketball/Clustering/index.html",
@@ -184,6 +179,14 @@
       "/basketball/wnba_data_quality/index.html",
       "/multisport/olympics_beijing_medals/index.html",
       "/softball/softball_div1/index.html"
+    ]
+  },
+  {
+    "listing": "/baseball/index.html",
+    "items": [
+      "/baseball/pitch-sequence/index.html",
+      "/baseball/predicting-all-stars/index.html",
+      "/baseball/verlander-pitchtype/index.html"
     ]
   },
   {
