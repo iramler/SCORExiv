@@ -6,13 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Phoebe Jones">
-<meta name="author" content="Robin Lock">
-<meta name="author" content="Ivan Ramler">
-<meta name="dcterms.date" content="2025-06-17">
-<meta name="description" content="Using explore data from the Clinton Canoe Regatta using data wrangling and visualization.">
+<meta name="author" content="Austin Hayes">
+<meta name="description" content="Using English Premier League data to introduce Seaborn visualizations in Python">
 
-<title>Clinton Canoe Regatta: Graphing and Data Manipulation – SCORE Module Repository</title>
+<title>Seaborn in Python Using English Premier League Data – SCORE Module Repository</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -155,7 +152,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../canoeing/index.html">Canoeing</a></li><li class="breadcrumb-item"><a href="../../canoeing/canoe_racing_clinton/index.html">Clinton Canoe Regatta: Graphing and Data Manipulation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../soccer/index.html">Soccer</a></li><li class="breadcrumb-item"><a href="../../soccer/english_premier_seaborn/index.html">Seaborn in Python Using English Premier League Data</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -277,14 +274,14 @@ cookieconsent.run({
       <div class="sidebar-item-container"> 
             <a href="../../canoeing/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Canoeing</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../canoeing/canoe_racing_clinton/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../canoeing/canoe_racing_clinton/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Clinton Canoe Regatta: Graphing and Data Manipulation</span></a>
   </div>
 </li>
@@ -545,11 +542,11 @@ cookieconsent.run({
       <div class="sidebar-item-container"> 
             <a href="../../soccer/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Soccer</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../soccer/Footedness/index.html" class="sidebar-item-text sidebar-link">
@@ -558,7 +555,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../soccer/english_premier_seaborn/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../soccer/english_premier_seaborn/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Seaborn in Python Using English Premier League Data</span></a>
   </div>
 </li>
@@ -623,68 +620,52 @@ cookieconsent.run({
   </li>
     </ul>
     </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#module" id="toc-module" class="nav-link active" data-scroll-target="#module">Module</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#background-video" id="toc-background-video" class="nav-link" data-scroll-target="#background-video">Background Video</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
-  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
-  </ul></li>
+  <li><a href="#module-files" id="toc-module-files" class="nav-link active" data-scroll-target="#module-files">Module Files</a></li>
+  <li><a href="#module" id="toc-module" class="nav-link" data-scroll-target="#module">Module</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/iramler/SCORExiv/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../canoeing/index.html">Canoeing</a></li><li class="breadcrumb-item"><a href="../../canoeing/canoe_racing_clinton/index.html">Clinton Canoe Regatta: Graphing and Data Manipulation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../soccer/index.html">Soccer</a></li><li class="breadcrumb-item"><a href="../../soccer/english_premier_seaborn/index.html">Seaborn in Python Using English Premier League Data</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Clinton Canoe Regatta: Graphing and Data Manipulation</h1>
+<h1 class="title"><p>Seaborn in Python Using English Premier League Data</p></h1>
   <div class="quarto-categories">
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Seaborn</div>
     <div class="quarto-category">Data Visualization</div>
-    <div class="quarto-category">Data Wrangling</div>
+    <div class="quarto-category">Exploratory Data Analysis</div>
+    <div class="quarto-category">Soccer</div>
+    <div class="quarto-category">English Premier League</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Using explore data from the Clinton Canoe Regatta using data wrangling and visualization.
+    Using English Premier League data to introduce Seaborn visualizations in Python
   </div>
 </div>
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Author</div>
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Phoebe Jones </p>
+    <p class="author">Austin Hayes </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            St.&nbsp;Lawrence University
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Robin Lock </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            St.&nbsp;Lawrence University
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Ivan Ramler <a href="mailto:iramler@stlawu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            St.&nbsp;Lawrence University
+            University of North Carolina at Charlotte
           </p>
       </div>
   </div>
@@ -695,7 +676,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 17, 2025</p>
+      <p class="date">Invalid Date</p>
     </div>
   </div>
   
@@ -707,223 +688,50 @@ cookieconsent.run({
 </header>
 
 
-<!--
-![Source: https://commons.wikimedia.org/wiki/File:Marathon_C2.jpg](Marathon_C2.jpg){width="3in"}
--->
-<section id="module" class="level2">
-<h2 class="anchored" data-anchor-id="module">Module</h2>
-<p>Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.</p>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>The <a href="https://www.canoeregatta.org/" target="_blank">Clinton Canoe Regatta</a> (the 70-miler) is an annual event in the downriver canoeing community. This race is one leg of the <a href="https://www.ausablecanoemarathon.org/stats-and-history/triple-crown/" target="_blank">Canoeing Triple Crown</a> (a challenge made up of three marathon canoe races in North America) and spans about 63 miles on the Susquehanna River in New York, from Cooperstown to Bainsbridge. Paddlers compete against each other to achieve the fastest time in their class.</p>
-</section>
-<section id="background-video" class="level3">
-<h3 class="anchored" data-anchor-id="background-video">Background Video</h3>
-<p>For those interested in learning more about canoe racing, watch this informative and humorous video from AuSable River Canoe Marathon competitor Holly Reynolds - “I am a canoe racer, explaining canoe racing.”</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gCF9eyOrfn0?si=ZSfNbjKQM0Az61uz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Activity Length">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Facilitation notes">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Activity Length
+<span class="screen-reader-only">Note</span>Facilitation notes
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>This could serve as an in class activity and should take roughly a half an hour to complete.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Learning Objectives">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Learning Objectives
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>By the end of this activity, students will:</p>
-<ol type="1">
-<li><p>Increase ability to create different plots.</p></li>
-<li><p>Learn more about filtering to include specific observations.</p></li>
-<li><p>Be able to notice and fix issues in data.</p></li>
-</ol>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Methods">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Methods
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Students should have introductory experience with both creating graphs and subsetting data.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Technology Requirements">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Technology Requirements
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Students will need to use technology that supports creation of graphs and filtering of data. Solutions are provided using the <code>dplyr</code> and <code>ggplot2</code> packages from <code>R</code>. However, any software capable of subsetting (filtering) rows and graphing distributions.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="data" class="level3">
-<h3 class="anchored" data-anchor-id="data">Data</h3>
-<p>This activity uses the data set: <a href="full_clinton.csv">full_clinton.csv</a></p>
-<p>The <code>full_clinton.csv</code> data set includes data from <a href="https://paddlestats.net/racehistory/CLINTON70" target="_blank">Paddlestats</a> about the <a href="https://www.canoeregatta.org/" target="_blank">Clinton Canoe Regatta</a> from the years 2014-2025 (excluding 2020 and 2021 as no race was held due to the COVID-19 pandemic). Each row refers to a specific racer from a year at the race (so if a boat has more than one paddler, its time and bib number will appear in the same number of rows as there were people in the boat).</p>
-<p>There are 3,227 total paddlers with 19 variables for each one. If a paddler did the race multiple times from 2014-2025, they will have a row for each year they ran it.</p>
-<details>
-<summary>
-<b>Variable Descriptions</b>
-</summary>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 18%">
-<col style="width: 81%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Variable</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>year</td>
-<td>Year raced</td>
-</tr>
-<tr class="even">
-<td>boatType</td>
-<td>Type of boat raced (canoe, kayak, SUP)</td>
-</tr>
-<tr class="odd">
-<td>bib</td>
-<td>Bib number</td>
-</tr>
-<tr class="even">
-<td>classID</td>
-<td>Class (oc4stock, oc2pro, etc)</td>
-</tr>
-<tr class="odd">
-<td>place</td>
-<td>Where the boat placed in their class’s results</td>
-</tr>
-<tr class="even">
-<td>time</td>
-<td>The time to complete the race (in sec)</td>
-</tr>
-<tr class="odd">
-<td>overall</td>
-<td>Overall rank (out of all boats ever)</td>
-</tr>
-<tr class="even">
-<td>byBoat</td>
-<td>Rank out of all boats of the same type</td>
-</tr>
-<tr class="odd">
-<td>byClass</td>
-<td>Rank out of all boats in class (all years)</td>
-</tr>
-<tr class="even">
-<td>byYrClass</td>
-<td>Rank out of the boats in their class in their year</td>
-</tr>
-<tr class="odd">
-<td>byYrOver</td>
-<td>Rank out of all the boats that year (all classes)</td>
-</tr>
-<tr class="even">
-<td>byYrBoat</td>
-<td>Rank out of all boats of the same type that year</td>
-</tr>
-<tr class="odd">
-<td>courseID</td>
-<td>Version of the course raced (all the same here)</td>
-</tr>
-<tr class="even">
-<td>personID</td>
-<td>The person’s PaddleStats ID</td>
-</tr>
-<tr class="odd">
-<td>displayName</td>
-<td>Name of the racer</td>
-</tr>
-<tr class="even">
-<td>city</td>
-<td>Racer’s home city (as given at registration)</td>
-</tr>
-<tr class="odd">
-<td>state</td>
-<td>Racer’s home state or province (as given at registration)</td>
-</tr>
-<tr class="even">
-<td>country</td>
-<td>Racer’s home country (as given at registration)</td>
-</tr>
-<tr class="odd">
-<td>status</td>
-<td>Finishing status (DNF, DNS, DQ, etc.)</td>
-</tr>
-</tbody>
-</table>
-</details>
-<section id="data-source" class="level4">
-<h4 class="anchored" data-anchor-id="data-source">Data Source</h4>
-<p>The data are compiled from the <a href="https://paddlestats.net/racehistory/CLINTON70" target="_blank">Paddlestats Website</a>.</p>
-</section>
-</section>
-<section id="materials" class="level3">
-<h3 class="anchored" data-anchor-id="materials">Materials</h3>
+<p>This module was originally developed as a Jupyter notebook. The SCORE preprint server does not run the notebook directly, so users should download the materials below and run the notebook locally or in a Jupyter-compatible environment.</p>
+<p>Students should be provided with the following files:</p>
 <ul>
-<li><p><a href="clinton_module_worksheet.qmd">Module Worksheet (R Version)</a></p></li>
-<li><p><a href="Clinton_Graphing_Manipulation.docx">Module Worksheet (non-R Version)</a></p></li>
-<li><p><a href="clinton_module_SOLUTIONS.qmd">Solutions to Worksheet (R/Quarto Version)</a></p></li>
-<li><p><a href="clinton_module_SOLUTIONS.pdf">Solutions to Worksheet (R/PDF Version)</a></p></li>
+<li><a href="Seaborn in Python Using English Premier League data by Austin Hayes.ipynb">Student-facing Jupyter notebook</a></li>
+<li><a href="data/">Data folder</a></li>
 </ul>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Conclusion">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Conclusion
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Upon conclusion of this module, students will have a greater understanding of data manipulation and visualization and will be better prepared to use both with less clear-cut data.</p>
+<p>Additional instructor materials are available below:</p>
+<ul>
+<li><a href="ANSWER KEY - Seaborn in Python Using English Premier League data by Austin Hayes.ipynb">Answer key Jupyter notebook</a></li>
+</ul>
 </div>
 </div>
 </div>
-
-
+<section id="module-files" class="level1">
+<h1>Module Files</h1>
+<p>The full module materials are linked below.</p>
+<ul>
+<li><a href="Seaborn in Python Using English Premier League data by Austin Hayes.ipynb">Student-facing Jupyter notebook</a></li>
+<li><a href="ANSWER KEY - Seaborn in Python Using English Premier League data by Austin Hayes.ipynb">Answer key Jupyter notebook</a></li>
+<li><a href="data/">Data folder</a></li>
+</ul>
 </section>
+<section id="module" class="level1">
+<h1>Module</h1>
+<p>This shell page provides access to the module materials. Download the student-facing Jupyter notebook and the supporting data folder above to complete the activity.</p>
+<p>To run the notebook, users will need a Python environment with packages such as <code>pandas</code>, <code>numpy</code>, <code>seaborn</code>, and <code>matplotlib</code>.</p>
+</section>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>In this module, students use English Premier League data to learn how to create and interpret visualizations in Python using the Seaborn library.</p>
+
+
 </section>
 
 </main> <!-- /main -->

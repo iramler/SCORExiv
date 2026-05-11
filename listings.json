@@ -38,6 +38,7 @@
       "/volleyball/ncaa_d1_2022-23/index.html",
       "/basketball/wnba_data_quality/index.html",
       "/multisport/olympics_beijing_medals/index.html",
+      "/soccer/english_premier_seaborn/index.html",
       "/softball/softball_div1/index.html"
     ]
   },
@@ -50,93 +51,34 @@
   {
     "listing": "/soccer/index.html",
     "items": [
-      "/soccer/Footedness/index.html"
+      "/soccer/Footedness/index.html",
+      "/soccer/english_premier_seaborn/index.html"
     ]
   },
   {
-    "listing": "/skiing/index.html",
+    "listing": "/multisport/index.html",
     "items": [
-      "/skiing/giant_salom_womens_worldcup/index.html"
+      "/multisport/olympics_beijing_medals/index.html"
     ]
   },
   {
-    "listing": "/skating/index.html",
+    "listing": "/ice_hockey/index.html",
     "items": [
-      "/skating/ice_skating_olympics_men_2008-2022/index.html"
+      "/ice_hockey/pwhl_season1_visualizations/index.html"
     ]
   },
   {
-    "listing": "/racket_sports/index.html",
+    "listing": "/disc_golf/index.html",
     "items": [
-      "/racket_sports/pickleball_matched_pairs/index.html",
-      "/racket_sports/tennis_sampsize/index.html",
-      "/racket_sports/atp_win_percentages_format_and_surface/index.html"
+      "/disc_golf/dgpt_correlations/index.html"
     ]
   },
   {
-    "listing": "/obstacle_courses/index.html",
+    "listing": "/baseball/index.html",
     "items": [
-      "/obstacle_courses/West_Point_Indoor_Obstacle_Course/index.html"
-    ]
-  },
-  {
-    "listing": "/lacrosse/index.html",
-    "items": [
-      "/lacrosse/expected_goals/index.html"
-    ]
-  },
-  {
-    "listing": "/handball/index.html",
-    "items": [
-      "/handball/handball-bundesliga/index.html"
-    ]
-  },
-  {
-    "listing": "/gymnastics/index.html",
-    "items": [
-      "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html"
-    ]
-  },
-  {
-    "listing": "/golf/index.html",
-    "items": [
-      "/golf/pga_gir_nor/index.html",
-      "/golf/pga_gir/index.html"
-    ]
-  },
-  {
-    "listing": "/football_american/index.html",
-    "items": [
-      "/football_american/nfl-point-spread-inference/index.html"
-    ]
-  },
-  {
-    "listing": "/combat_sports/index.html",
-    "items": [
-      "/combat_sports/mma_chisquare/index.html"
-    ]
-  },
-  {
-    "listing": "/canoeing/index.html",
-    "items": [
-      "/canoeing/canoe_racing_clinton_distributions/index.html",
-      "/canoeing/canoe_racing_clinton/index.html",
-      "/canoeing/raisin_river_regression/index.html"
-    ]
-  },
-  {
-    "listing": "/basketball/index.html",
-    "items": [
-      "/basketball/berksons_bias/index.html",
-      "/basketball/Clustering/index.html",
-      "/basketball/nba_wingspans_and_performance/index.html",
-      "/basketball/nba_sga_sampling_distributions/index.html",
-      "/basketball/conditional_probability/index.html",
-      "/basketball/nba-rapm/index.html",
-      "/basketball/nba-ordinal-regression/index.html",
-      "/basketball/nba_draft_anova_intermediate/index.html",
-      "/basketball/nba_draft_anova_intro/index.html",
-      "/basketball/wnba_data_quality/index.html"
+      "/baseball/pitch-sequence/index.html",
+      "/baseball/predicting-all-stars/index.html",
+      "/baseball/verlander-pitchtype/index.html"
     ]
   },
   {
@@ -178,33 +120,94 @@
       "/volleyball/ncaa_d1_2022-23/index.html",
       "/basketball/wnba_data_quality/index.html",
       "/multisport/olympics_beijing_medals/index.html",
+      "/soccer/english_premier_seaborn/index.html",
       "/softball/softball_div1/index.html"
     ]
   },
   {
-    "listing": "/baseball/index.html",
+    "listing": "/basketball/index.html",
     "items": [
-      "/baseball/pitch-sequence/index.html",
-      "/baseball/predicting-all-stars/index.html",
-      "/baseball/verlander-pitchtype/index.html"
+      "/basketball/berksons_bias/index.html",
+      "/basketball/Clustering/index.html",
+      "/basketball/nba_wingspans_and_performance/index.html",
+      "/basketball/nba_sga_sampling_distributions/index.html",
+      "/basketball/conditional_probability/index.html",
+      "/basketball/nba-rapm/index.html",
+      "/basketball/nba-ordinal-regression/index.html",
+      "/basketball/nba_draft_anova_intermediate/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
+      "/basketball/wnba_data_quality/index.html"
     ]
   },
   {
-    "listing": "/disc_golf/index.html",
+    "listing": "/canoeing/index.html",
     "items": [
-      "/disc_golf/dgpt_correlations/index.html"
+      "/canoeing/canoe_racing_clinton_distributions/index.html",
+      "/canoeing/canoe_racing_clinton/index.html",
+      "/canoeing/raisin_river_regression/index.html"
     ]
   },
   {
-    "listing": "/ice_hockey/index.html",
+    "listing": "/combat_sports/index.html",
     "items": [
-      "/ice_hockey/pwhl_season1_visualizations/index.html"
+      "/combat_sports/mma_chisquare/index.html"
     ]
   },
   {
-    "listing": "/multisport/index.html",
+    "listing": "/football_american/index.html",
     "items": [
-      "/multisport/olympics_beijing_medals/index.html"
+      "/football_american/nfl-point-spread-inference/index.html"
+    ]
+  },
+  {
+    "listing": "/golf/index.html",
+    "items": [
+      "/golf/pga_gir_nor/index.html",
+      "/golf/pga_gir/index.html"
+    ]
+  },
+  {
+    "listing": "/gymnastics/index.html",
+    "items": [
+      "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html"
+    ]
+  },
+  {
+    "listing": "/handball/index.html",
+    "items": [
+      "/handball/handball-bundesliga/index.html"
+    ]
+  },
+  {
+    "listing": "/lacrosse/index.html",
+    "items": [
+      "/lacrosse/expected_goals/index.html"
+    ]
+  },
+  {
+    "listing": "/obstacle_courses/index.html",
+    "items": [
+      "/obstacle_courses/West_Point_Indoor_Obstacle_Course/index.html"
+    ]
+  },
+  {
+    "listing": "/racket_sports/index.html",
+    "items": [
+      "/racket_sports/pickleball_matched_pairs/index.html",
+      "/racket_sports/tennis_sampsize/index.html",
+      "/racket_sports/atp_win_percentages_format_and_surface/index.html"
+    ]
+  },
+  {
+    "listing": "/skating/index.html",
+    "items": [
+      "/skating/ice_skating_olympics_men_2008-2022/index.html"
+    ]
+  },
+  {
+    "listing": "/skiing/index.html",
+    "items": [
+      "/skiing/giant_salom_womens_worldcup/index.html"
     ]
   },
   {
