@@ -5,7 +5,7 @@ author:
   - name: Austin Hayes
     affiliations:
       - name: University of North Carolina at Charlotte
-date: "`r Sys.Date()`"
+date: May 11, 2026
 format:
   html: default
 toc: true
@@ -29,7 +29,8 @@ This module was originally developed as a Jupyter notebook. The SCORE preprint s
 Students should be provided with the following files:
 
 - [Student-facing Jupyter notebook](Seaborn%20in%20Python%20Using%20English%20Premier%20League%20data%20by%20Austin%20Hayes.ipynb)
-- [Data folder](data/)
+- [English Premier League player statistics data](data/epl_player_stats_24_25.csv)
+- [La Liga player statistics data](data/laliga_player_stats_english.csv)
 
 Additional instructor materials are available below:
 
@@ -42,11 +43,12 @@ The full module materials are linked below.
 
 - [Student-facing Jupyter notebook](Seaborn%20in%20Python%20Using%20English%20Premier%20League%20data%20by%20Austin%20Hayes.ipynb)
 - [Answer key Jupyter notebook](ANSWER%20KEY%20-%20Seaborn%20in%20Python%20Using%20English%20Premier%20League%20data%20by%20Austin%20Hayes.ipynb)
-- [Data folder](data/)
+- [English Premier League player statistics data](data/epl_player_stats_24_25.csv)
+- [La Liga player statistics data](data/laliga_player_stats_english.csv)
 
 # Module
 
-This shell page provides access to the module materials. Download the student-facing Jupyter notebook and the supporting data folder above to complete the activity.
+This shell page provides access to the module materials. Download the student-facing Jupyter notebook and the supporting data files above to complete the activity.
 
 To run the notebook, users will need a Python environment with packages such as `pandas`, `numpy`, `seaborn`, and `matplotlib`.
 
