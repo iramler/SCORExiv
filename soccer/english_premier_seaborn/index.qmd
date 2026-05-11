@@ -1,0 +1,55 @@
+---
+title: |
+  Seaborn in Python Using English Premier League Data
+author:
+  - name: Austin Hayes
+    affiliations:
+      - name: University of North Carolina at Charlotte
+date: "`r Sys.Date()`"
+format:
+  html: default
+toc: true
+toc-location: left
+description: Using English Premier League data to introduce Seaborn visualizations in Python
+categories:
+  - Python
+  - Seaborn
+  - Data Visualization
+  - Exploratory Data Analysis
+  - Soccer
+  - English Premier League
+editor_options:
+  chunk_output_type: console
+callout-icon: false
+---
+
+::: {.callout-note collapse="false" title="Facilitation notes" appearance="minimal"}
+This module was originally developed as a Jupyter notebook. The SCORE preprint server does not run the notebook directly, so users should download the materials below and run the notebook locally or in a Jupyter-compatible environment.
+
+Students should be provided with the following files:
+
+- [Student-facing Jupyter notebook](Seaborn%20in%20Python%20Using%20English%20Premier%20League%20data%20by%20Austin%20Hayes.ipynb)
+- [Data folder](data/)
+
+Additional instructor materials are available below:
+
+- [Answer key Jupyter notebook](ANSWER%20KEY%20-%20Seaborn%20in%20Python%20Using%20English%20Premier%20League%20data%20by%20Austin%20Hayes.ipynb)
+:::
+
+# Module Files
+
+The full module materials are linked below.
+
+- [Student-facing Jupyter notebook](Seaborn%20in%20Python%20Using%20English%20Premier%20League%20data%20by%20Austin%20Hayes.ipynb)
+- [Answer key Jupyter notebook](ANSWER%20KEY%20-%20Seaborn%20in%20Python%20Using%20English%20Premier%20League%20data%20by%20Austin%20Hayes.ipynb)
+- [Data folder](data/)
+
+# Module
+
+This shell page provides access to the module materials. Download the student-facing Jupyter notebook and the supporting data folder above to complete the activity.
+
+To run the notebook, users will need a Python environment with packages such as `pandas`, `numpy`, `seaborn`, and `matplotlib`.
+
+# Summary
+
+In this module, students use English Premier League data to learn how to create and interpret visualizations in Python using the Seaborn library.
