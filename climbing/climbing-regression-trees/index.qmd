@@ -1,0 +1,108 @@
+---
+title: |
+  Introduction to Regression Trees with Climbing Data
+author:
+  - name: Izaan Khudadad
+    email: ikhudada@charlotte.edu
+    affiliations:
+      - name: University of North Carolina at Charlotte
+date: May 11, 2026
+format:
+  html: default
+toc: true
+toc-location: left
+description: Using climbing data to introduce regression trees and numeric prediction in Python
+categories:
+  - Prediction
+  - Modeling
+  - Regression Trees
+  - Exploratory Data Analysis
+  - Python
+  - Climbing
+editor_options:
+  chunk_output_type: console
+callout-icon: false
+---
+
+::: {.callout-note collapse="false" title="Facilitation notes" appearance="minimal"}
+This module was originally developed as a Jupyter notebook. The SCORE preprint server does not run the notebook directly, so users should download the materials below and run the notebook locally or in a Jupyter-compatible environment.
+
+Students should be provided with the following files:
+
+- [Student-facing Jupyter notebook](RegressionTreeSCOREUpdated.ipynb)
+- [Climber data](climber_df.csv)
+
+Additional instructor materials are available below:
+
+- [Solutions Jupyter notebook](RegressionTree_solutions.ipynb)
+:::
+
+# Introduction
+
+In this activity, you will explore a dataset on indoor rock climbing attempts, compiled from climbers logging their performance on various climbing problems in a gym setting. The dataset includes information about the climber (such as weight and skill rating), the climb (grade difficulty and wall angle), and performance indicators (number of attempts, success or failure).
+
+Each observation in the dataset represents a single climber, along with summary statistics of their climbing history. Instead of tracking individual attempts, the data records features such as the climber’s maximum grade achieved, average grade, total number of climbs, and years active.
+
+This structure allows you to examine patterns in climber performance, experience, and progression over time, and to build predictive models based on climber characteristics and aggregated performance metrics.
+
+# Learning Goals
+
+In this module, students will explore how to use regression trees to model climbing performance data. By building and interpreting decision tree models, students will develop core data science skills such as:
+
+- Understanding how decision trees split data based on predictor variables
+- Visualizing tree structures to interpret model decisions
+- Preparing and selecting features for modeling
+- Applying regression trees to make numeric predictions, such as number of attempts
+
+# Data
+
+The dataset contains more than 10,000 observations from climbers attempting indoor climbing problems/routes. Each row in the dataset represents a single climber’s record, combining both personal attributes, such as age, years of climbing, or weight, and performance outcomes, such as maximum grade achieved or number of climbs. This structure makes it possible to investigate how climber characteristics relate to climbing outcomes and to identify patterns in performance, effort, and progression.
+
+- [Climber data](climber_df.csv)
+
+<details>
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable | Description |
+|--------------------|-----------------------------------------------------------------------------|
+| user_id             | Unique identifier for each climber |
+| country             | Country of residence or origin of the climber |
+| sex                 | Sex of the climber (M or F) |
+| weight              | Weight of the climber in kilograms |
+| height              | Height of the climber |
+| age                 | Age of the climber in years |
+| years_cl            | Number of years the climber has been climbing |
+| date_first          | Date of the climber’s first recorded climb |
+| date_last           | Date of the climber’s most recent recorded climb |
+| grades_count        | Total number of climbs completed with a recorded grade |
+| grades_first        | Difficulty grade of the first climb the user completed |
+| grades_last         | Difficulty grade of the most recent climb completed |
+| grades_max          | Highest grade completed by the climber |
+| grades_mean         | Average grade of all climbs completed |
+| year_first          | Year of the climber’s first recorded climb |
+| year_last           | Year of the climber’s most recent recorded climb |
+
+</details>
+
+# Module Files
+
+The full module materials are linked below.
+
+- [Student-facing Jupyter notebook](RegressionTreeSCOREUpdated.ipynb)
+- [Solutions Jupyter notebook](RegressionTree_solutions.ipynb)
+- [Climber data](climber_df.csv)
+
+# Module
+
+This shell page provides access to the module materials. Download the student-facing Jupyter notebook and the supporting data file above to complete the activity.
+
+To run the notebook, users will need a Python environment with packages such as `pandas`, `matplotlib`, and `scikit-learn`.
+
+# Summary
+
+In this module, students explored how to use regression trees to model and predict peak climbing performance using real-world climbing data. By building and visualizing decision tree models, students practiced key data science skills such as:
+
+1. Selecting relevant predictor variables like age, experience, and physical characteristics
+2. Preprocessing categorical data using dummy variables
+3. Training and interpreting regression tree models using scikit-learn
+4. Visualizing model splits to understand how the algorithm makes predictions

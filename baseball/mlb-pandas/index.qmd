@@ -1,0 +1,132 @@
+---
+title: |
+  Learning the Basics of Pandas in Python Using 2024 MLB Team Batting Data
+author:
+  - name: Austin Hayes
+    email: ahayes65@charlotte.edu
+    affiliations:
+      - name: University of North Carolina at Charlotte
+date: June 2, 2025
+format:
+  html: default
+toc: true
+toc-location: left
+description: Using 2024 MLB team batting data to introduce the Pandas library in Python
+categories:
+  - Dataframes
+  - Summary Statistics
+  - Importing and Reading Data
+  - Data Filtering
+  - Data Science
+  - Python
+  - Pandas
+  - Baseball
+  - MLB
+editor_options:
+  chunk_output_type: console
+callout-icon: false
+---
+
+::: {.callout-note collapse="false" title="Facilitation notes" appearance="minimal"}
+This module was originally developed as a Jupyter notebook. The SCORE preprint server does not run the notebook directly, so users should download the materials below and run the notebook locally or in a Jupyter-compatible environment.
+
+Students should be provided with the following files:
+
+- [Student-facing Jupyter notebook](Learning%20the%20Basics%20of%20Pandas%20in%20Python%20Using%202024%20MLB%20Team%20Batting%20Data.ipynb)
+- [2024 MLB team batting data CSV](2024_MLB_Team_Batting_Data.csv)
+- [2024 MLB team batting data Excel file](2024_MLB_Team_Batting_Data_Excel_Version.xlsx)
+- [2024 MLB team pitching data CSV](Pitching%20Data%20-%20MLB%202024%20Team%20Stats.csv)
+
+Additional instructor materials are available below:
+
+- [Answer key Jupyter notebook](Learning%20the%20Basics%20of%20Pandas%20in%20Python%20Using%202024%20MLB%20Team%20Batting%20Data%20-%20ANSWER%20KEY.ipynb)
+:::
+
+# Introduction
+
+This SCORE module will be an introduction to the basics of the Pandas library in Python. We will go over some of the basic items needed to use Python and Pandas throughout this module. 
+
+Some of the Topics we will be discussing: 
+
+- Reading and Importing Data
+- Creating a Dataframe 
+- Data Selection
+- Dataframe Analysis
+- Data Manipulation
+
+# Learning Goals
+
+- Use Pandas for importing data from CSV and Excel Files
+- Creation your own Dataframe using Python Dictionaries
+- Data selection of rows and columns with loc and iloc
+- Data Filtering with conditionals
+- How to calculate key statistics
+- Handling null data 
+- Changing data types
+
+# Data
+
+This Dataset is Originally from Baseball Reference and has been converted to CSV and Excel files for this learning module. 
+
+The data set contains 32 rows and 29 columns. Each row represents a MLB team.
+
+- [2024 MLB team batting data CSV](2024_MLB_Team_Batting_Data.csv)
+- [2024 MLB team batting data Excel file](2024_MLB_Team_Batting_Data_Excel_Version.xlsx)
+- [2024 MLB team pitching data CSV](Pitching%20Data%20-%20MLB%202024%20Team%20Stats.csv)
+
+<details>
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable | Description |
+|----|----------------------------|
+| Tm | Team |
+| #Bat | Number of Players used in Games | 
+| BatAge | Batters’ average age. Weighted by AB + Games Played |
+| R/G | Runs Scored Per Game |
+| G | Games Played or Pitched |
+| PA | Plate Appearances |
+| AB | At Bats |
+| R | Runs Scored/Allowed |
+| H | Hits/Hits Allowed |
+| 2B | Second Base Hits |
+| 3B | Third Base Hits |
+| HR | Home Runs Hit/Allowed |
+| RBI | Runs Batted In |
+| SB | Stolen Bases |
+| CS | Caught Stealing |
+| BB | Bases on Balls/Walks |
+| SO | Strikeouts |
+| BA | Hits/At Bats |
+| OBP | On-Base Percentage |
+| SLG | Slugging Percentage |
+| OPS | On-Base Plus Slugging |
+| OPS+ | Adjusted OPS |
+| TB | Total Bases |
+| GDP | Double Plays Grounded Into |
+| HBP | Times Hit by a Pitch |
+| SH | Sacrifice Hits |
+| SF | Sacrifice Flies |
+| IBB | Intentional Bases on Balls |
+| LOB | Runners Left On Base |
+
+</details>
+
+# Module Files
+
+The full module materials are linked below.
+
+- [Student-facing Jupyter notebook](Learning%20the%20Basics%20of%20Pandas%20in%20Python%20Using%202024%20MLB%20Team%20Batting%20Data.ipynb)
+- [Answer key Jupyter notebook](Learning%20the%20Basics%20of%20Pandas%20in%20Python%20Using%202024%20MLB%20Team%20Batting%20Data%20-%20ANSWER%20KEY.ipynb)
+- [2024 MLB team batting data CSV](2024_MLB_Team_Batting_Data.csv)
+- [2024 MLB team batting data Excel file](2024_MLB_Team_Batting_Data_Excel_Version.xlsx)
+- [2024 MLB team pitching data CSV](Pitching%20Data%20-%20MLB%202024%20Team%20Stats.csv)
+
+# Module
+
+This shell page provides access to the module materials. Download the student-facing Jupyter notebook and the supporting data files above to complete the activity.
+
+To run the notebook, users will need a Python environment with packages such as `pandas`, `numpy`, and `openpyxl`.
+
+# Summary
+
+In this module, students use 2024 MLB team batting data to learn basic Pandas workflows in Python, including importing data, creating dataframes, selecting rows and columns, filtering data, computing summary statistics, handling missing values, changing data types, and converting dataframe columns to NumPy arrays.

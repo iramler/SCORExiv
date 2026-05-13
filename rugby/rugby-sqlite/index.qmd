@@ -1,0 +1,103 @@
+---
+title: |
+  Intro to SQL with SQLite: Exploring International Rugby Matches
+author:
+  - name: Izaan Khudadad
+    email: ikhudada@charlotte.edu
+    affiliations:
+      - name: University of North Carolina at Charlotte
+date: May 11, 2026
+format:
+  html: default
+toc: true
+toc-location: left
+description: Using international rugby match data to introduce SQL, SQLite, and descriptive data analysis in Python
+categories:
+  - Data Wrangling
+  - Descriptive Statistics
+  - SQL
+  - SQLite
+  - Python
+  - Rugby
+editor_options:
+  chunk_output_type: console
+callout-icon: false
+---
+
+::: {.callout-note collapse="false" title="Facilitation notes" appearance="minimal"}
+This module was originally developed as a Jupyter notebook. The SCORE preprint server does not run the notebook directly, so users should download the materials below and run the notebook locally or in a Jupyter-compatible environment.
+
+Students should be provided with the following file:
+
+- [Student-facing Jupyter notebook](Intro_to_SQL.ipynb)
+
+Additional instructor materials are available below:
+
+- [Solutions Jupyter notebook](IntroToSQLSolutions.ipynb)
+:::
+
+# Introduction
+
+In the following activity, you will use data compiled by Lyle Begbie from Kaggle, which contains detailed results from international rugby union matches played between 1871 and 2022. The dataset includes match dates, home and away teams, scores, competitions, venues, countries, and flags for World Cup and neutral-site matches.
+
+Each observation represents a single rugby match, providing a rich source of information to explore team performances, scoring patterns, and trends over time.
+
+Using this data, you will practice fundamental SQL skills within Python, while also learning how to perform descriptive data analysis and aggregation on real sports data.
+
+# Learning Goals
+
+In this module, students will explore how to use SQL to analyze international rugby match data. By writing, executing, and interpreting SQL queries on this dataset, students will practice core data science skills such as:
+
+- Filtering data using `WHERE` clauses to focus on subsets of interest
+- Computing summary statistics with `GROUP BY` and aggregate functions, such as `AVG`
+- Sorting and ranking results to identify top teams, competitions, or scoring patterns
+- Extracting insights from dates and categorical variables
+- Developing familiarity with relational database tools like SQLite for data exploration
+
+# Data
+
+The dataset contains over 2600 international rugby union results.
+
+The notebook loads the data directly from the project’s GitHub source, so the local `climb_df.csv` file shown in the folder is not needed for this module.
+
+<details>
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable | Description |
+|--------------------|-----------------------------------------------------------------------------|
+| date              | Date when the match was played (format: YYYY-MM-DD)                         |
+| home_team         | Name of the team playing at home                                            |
+| away_team         | Name of the team playing away                                               |
+| home_score        | Number of points scored by the home team                                    |
+| away_score        | Number of points scored by the away team                                    |
+| competition       | Name of the competition or series, often including the year                  |
+| stadium           | Name of the stadium where the match was played                              |
+| city              | City where the match took place                                             |
+| country           | Country where the match was hosted                                          |
+| neutral           | Boolean indicating if the match was on neutral ground                       |
+| world_cup         | Boolean indicating if the match was part of the Rugby World Cup             |
+
+</details>
+
+# Module Files
+
+The full module materials are linked below.
+
+- [Student-facing Jupyter notebook](Intro_to_SQL.ipynb)
+- [Solutions Jupyter notebook](IntroToSQLSolutions.ipynb)
+
+# Module
+
+This shell page provides access to the module materials. Download the student-facing Jupyter notebook above to complete the activity.
+
+To run the notebook, users will need a Python environment with packages such as `pandas` and access to Python’s built-in `sqlite3` library.
+
+# Summary
+
+In the provided material, students explored how to use SQL to analyze international rugby match data. By writing, running, and interpreting SQL queries on a real sports dataset, students practiced core data science skills such as:
+
+- Filtering data using `WHERE` clauses to focus on specific subsets
+- Computing summary statistics and aggregates with `GROUP BY` and functions like `AVG`
+- Sorting and ranking data using `ORDER BY` to identify patterns and top results
+- Using date filters to explore trends over time
+- Combining Python and SQL to perform efficient data wrangling inside a notebook
