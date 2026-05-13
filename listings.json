@@ -3,6 +3,9 @@
     "listing": "/by-statsds-topic.html",
     "items": [
       "/basketball/berksons_bias/index.html",
+      "/climbing/climbing-regression-trees/index.html",
+      "/combat_sports/boxing-multiple-regression/index.html",
+      "/rugby/rugby-sqlite/index.html",
       "/soccer/english_premier_seaborn/index.html",
       "/baseball/pitch-sequence/index.html",
       "/baseball/predicting-all-stars/index.html",
@@ -16,6 +19,7 @@
       "/canoeing/canoe_racing_clinton_distributions/index.html",
       "/canoeing/canoe_racing_clinton/index.html",
       "/canoeing/raisin_river_regression/index.html",
+      "/baseball/mlb-pandas/index.html",
       "/soccer/Footedness/index.html",
       "/golf/pga_gir_nor/index.html",
       "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html",
@@ -56,6 +60,12 @@
     ]
   },
   {
+    "listing": "/rugby/index.html",
+    "items": [
+      "/rugby/rugby-sqlite/index.html"
+    ]
+  },
+  {
     "listing": "/multisport/index.html",
     "items": [
       "/multisport/olympics_beijing_medals/index.html"
@@ -74,10 +84,34 @@
     ]
   },
   {
+    "listing": "/canoeing/index.html",
+    "items": [
+      "/canoeing/canoe_racing_clinton_distributions/index.html",
+      "/canoeing/canoe_racing_clinton/index.html",
+      "/canoeing/raisin_river_regression/index.html"
+    ]
+  },
+  {
+    "listing": "/basketball/index.html",
+    "items": [
+      "/basketball/berksons_bias/index.html",
+      "/basketball/Clustering/index.html",
+      "/basketball/nba_wingspans_and_performance/index.html",
+      "/basketball/nba_sga_sampling_distributions/index.html",
+      "/basketball/conditional_probability/index.html",
+      "/basketball/nba-rapm/index.html",
+      "/basketball/nba-ordinal-regression/index.html",
+      "/basketball/nba_draft_anova_intermediate/index.html",
+      "/basketball/nba_draft_anova_intro/index.html",
+      "/basketball/wnba_data_quality/index.html"
+    ]
+  },
+  {
     "listing": "/baseball/index.html",
     "items": [
       "/baseball/pitch-sequence/index.html",
       "/baseball/predicting-all-stars/index.html",
+      "/baseball/mlb-pandas/index.html",
       "/baseball/verlander-pitchtype/index.html"
     ]
   },
@@ -85,6 +119,9 @@
     "listing": "/index.html",
     "items": [
       "/basketball/berksons_bias/index.html",
+      "/climbing/climbing-regression-trees/index.html",
+      "/combat_sports/boxing-multiple-regression/index.html",
+      "/rugby/rugby-sqlite/index.html",
       "/soccer/english_premier_seaborn/index.html",
       "/baseball/pitch-sequence/index.html",
       "/baseball/predicting-all-stars/index.html",
@@ -98,6 +135,7 @@
       "/canoeing/canoe_racing_clinton_distributions/index.html",
       "/canoeing/canoe_racing_clinton/index.html",
       "/canoeing/raisin_river_regression/index.html",
+      "/baseball/mlb-pandas/index.html",
       "/soccer/Footedness/index.html",
       "/golf/pga_gir_nor/index.html",
       "/gymnastics/NCAA-womens-gymnastics-bootstrap/index.html",
@@ -125,31 +163,15 @@
     ]
   },
   {
-    "listing": "/basketball/index.html",
+    "listing": "/climbing/index.html",
     "items": [
-      "/basketball/berksons_bias/index.html",
-      "/basketball/Clustering/index.html",
-      "/basketball/nba_wingspans_and_performance/index.html",
-      "/basketball/nba_sga_sampling_distributions/index.html",
-      "/basketball/conditional_probability/index.html",
-      "/basketball/nba-rapm/index.html",
-      "/basketball/nba-ordinal-regression/index.html",
-      "/basketball/nba_draft_anova_intermediate/index.html",
-      "/basketball/nba_draft_anova_intro/index.html",
-      "/basketball/wnba_data_quality/index.html"
-    ]
-  },
-  {
-    "listing": "/canoeing/index.html",
-    "items": [
-      "/canoeing/canoe_racing_clinton_distributions/index.html",
-      "/canoeing/canoe_racing_clinton/index.html",
-      "/canoeing/raisin_river_regression/index.html"
+      "/climbing/climbing-regression-trees/index.html"
     ]
   },
   {
     "listing": "/combat_sports/index.html",
     "items": [
+      "/combat_sports/boxing-multiple-regression/index.html",
       "/combat_sports/mma_chisquare/index.html"
     ]
   },
