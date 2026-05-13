@@ -1,5 +1,5 @@
 ---
-title: "Expected Goals in Lacrosse"
+title: "Expected Goals in Lacrosse - Decision Trees"
 author:
   - name: Ryan Sellew
     affiliation:
