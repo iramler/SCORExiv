@@ -1,0 +1,80 @@
+---
+title: |
+  Expected Goals in Lacrosse
+author:
+  - name: Gunnar Fellows
+    affiliations:
+      - name: West Point
+date: May 11, 2026
+format:
+  html: default
+toc: true
+toc-location: left
+description: Using Premier Lacrosse League shot location data to introduce expected goals models, logistic regression, support vector machines, and class imbalance
+categories:
+  - Logistic Regression
+  - Support Vector Machines
+  - Classification
+  - Class Imbalance
+  - Expected Goals
+  - Python
+  - Lacrosse
+editor_options:
+  chunk_output_type: console
+callout-icon: false
+---
+
+::: {.callout-note collapse="false" title="Facilitation notes" appearance="minimal"}
+This module was originally developed as a Jupyter notebook. The SCORE preprint server does not run the notebook directly, so users should download the materials below and run the notebook locally or in a Jupyter-compatible environment.
+
+Students should be provided with the following files:
+
+- [Student-facing lesson code notebook](Lesson_Code.ipynb)
+- [Student-facing PDF](MA491_student_version_final.pdf)
+- [Shot location data](shot_location_data.csv)
+
+Additional instructor materials are available below:
+
+- [Worksheet answers PDF](MA491_worksheet_answers_final.pdf)
+:::
+
+# Welcome Message and Introduction
+
+This lesson introduces students to Logistic Regression and Support Vector Machines (SVMs) in modeling an Expected Goals Model using lacrosse location data. The main focus of the lesson is comparing performance between logistic regression and SVM for an imbalanced data set, and how to approach class imbalance scenarios. In this lesson we will explore Premier Lacrosse League shot location data from the first three years of the league (2019-2021).
+
+Welcome video:
+
+- <https://youtube.com/shorts/TklOjvzMv_0?feature=share>
+
+# Lesson Objectives
+
+- Explain the structure of an Expected Goals (xG) model and evaluate its usefulness in lacrosse analytics.
+- Interpret logistic regression models and analyze the meaning of their coefficients in context.
+- Compare and contrast Support Vector Machines (SVMs), including their key advantages and limitations.
+- Construct and evaluate a baseline (dummy) model for performance comparison.
+- Diagnose class imbalance in sports datasets and apply appropriate techniques to address it, justifying their impact on model performance.
+
+# Data
+
+This module uses Premier Lacrosse League shot location data from the first three years of the league, 2019-2021. Students use shot location information to model whether a shot results in a goal and to explore how shot distance, shot angle, and assisted/unassisted status relate to scoring outcomes.
+
+- [Shot location data](shot_location_data.csv)
+
+# Module Files
+
+The full module materials are linked below.
+
+- [Student-facing lesson code notebook](Lesson_Code.ipynb)
+- [Student-facing PDF](MA491_student_version_final.pdf)
+- [Worksheet answers PDF](MA491_worksheet_answers_final.pdf)
+- [Shot location data](shot_location_data.csv)
+
+# Module
+
+This shell page provides access to the module materials. Download the student-facing PDF, lesson code notebook, and supporting data file above to complete the activity.
+
+To run the notebook, users will need a Python environment with packages such as `pandas`, `numpy`, `matplotlib`, `scikit-learn`, and `plotly`.
+
+# Summary
+
+In this module, students build and evaluate expected goals models using lacrosse shot location data. The activity introduces logistic regression, Support Vector Machines, baseline dummy models, ROC/AUC, and the challenges of modeling an imbalanced outcome where goals are relatively rare compared with non-goals.
