@@ -23,7 +23,9 @@ categories:
   - Confidence Intervals
   - Summary Statistics
   - Data Visualization
-
+software:
+  - R
+  - Python
 ---
 
 ## Module

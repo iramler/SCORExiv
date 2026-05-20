@@ -7,4 +7,5 @@ listing:
   contents:
     - "*/*/index.qmd"
   fields: [image, title, author, date, categories, description]
+  filter-ui: [categories, software]
 ---
