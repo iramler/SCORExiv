@@ -6,7 +6,7 @@ listing:
   image-placeholder: "_img/default_thumbnail.png"
   contents:
     - "*/*/index.qmd"
-  fields: [image, title, author, date, categories, description]
+  fields: [image, title, author, date, categories, description, software]
   filter-ui: [software]
 ---
 
