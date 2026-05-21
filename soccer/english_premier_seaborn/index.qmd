@@ -11,13 +11,13 @@ format:
 toc: true
 toc-location: left
 description: Using English Premier League data to introduce Seaborn visualizations in Python
-categories:
+software:
   - Python
+categories:
   - Seaborn
   - Data Visualization
   - Exploratory Data Analysis
-  - Soccer
-  - English Premier League
+
 editor_options:
   chunk_output_type: console
 callout-icon: false

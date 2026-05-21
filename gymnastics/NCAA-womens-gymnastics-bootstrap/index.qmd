@@ -14,15 +14,12 @@ description: "Use bootstrap distributions and confidence intervals to compare be
 
 editor: 
   canonical: true
-#categories:
-#  - Bootstrap distribution
-#  - Confidence intervals
-#  - Paired data
 categories:
   - Bootstrap Methods
   - Confidence Intervals
   - Paired Data
-
+software:
+  - Statkey
 ---
 
 ## Module

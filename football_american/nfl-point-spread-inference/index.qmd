@@ -18,6 +18,8 @@ categories:
   -   Hypothesis Testing
   -   Paired Data
   -   Proportions
+software:
+  - R
 ---
 
 ## Module

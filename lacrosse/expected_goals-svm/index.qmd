@@ -16,9 +16,10 @@ categories:
   - Support Vector Machines
   - Classification
   - Class Imbalance
-  - Expected Goals
+
+software:
   - Python
-  - Lacrosse
+
 editor_options:
   chunk_output_type: console
 callout-icon: false

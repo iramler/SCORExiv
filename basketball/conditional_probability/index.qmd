@@ -24,6 +24,8 @@ categories:
   - Law of Large Numbers
   - Unconditional Probability
   - Conditional Probability
+software:
+  - R
 editor_options:
   chunk_output_type: console
 callout-icon: false

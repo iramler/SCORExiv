@@ -11,12 +11,11 @@ toc: true
 toc-location: left
 description: Berkson’s Bias using NBA offensive rating and height
 categories:
-  - Berkson’s Bias
   - Bias
   - Correlation
   - Linear Regression
-  - Basketball
-  - NBA
+software:
+  - R
 editor_options:
   chunk_output_type: console
 callout-icon: false

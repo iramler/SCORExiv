@@ -19,6 +19,8 @@ categories:
   - regularization
   - linear regression
   - adjusted plus-minus
+software:
+  - R
 image: plus-minus-frontcourt-220203.jpg
 ---
 

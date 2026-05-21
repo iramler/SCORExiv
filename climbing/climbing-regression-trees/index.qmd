@@ -17,8 +17,6 @@ categories:
   - Modeling
   - Regression Trees
   - Exploratory Data Analysis
-  - Python
-  - Climbing
 editor_options:
   chunk_output_type: console
 callout-icon: false

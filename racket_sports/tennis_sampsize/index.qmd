@@ -23,6 +23,8 @@ categories:
   - Independent two sample test of proportions
   - Hypotheses testing 
   - Types of errors
+software:
+  - R
 editor_options:
   chunk_output_type: console
 callout-icon: false

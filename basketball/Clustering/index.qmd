@@ -29,6 +29,8 @@ description: K-means clustering with NBA data
 categories:
   - Clustering
   - K-Means
+software:
+  - R
 image: GettyImages-1258954517-nba-draft-2023.jpg.webp
 ---
 

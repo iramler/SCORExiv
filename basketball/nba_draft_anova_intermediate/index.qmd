@@ -21,6 +21,8 @@ categories:
   - Data Wrangling
   - Tidyverse
 
+software:
+  - R
 
 #categories:
 #  - One-Way Analysis of Variance 

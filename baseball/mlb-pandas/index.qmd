@@ -17,11 +17,10 @@ categories:
   - Summary Statistics
   - Importing and Reading Data
   - Data Filtering
-  - Data Science
-  - Python
   - Pandas
-  - Baseball
-  - MLB
+software:
+  - Python
+
 editor_options:
   chunk_output_type: console
 callout-icon: false

@@ -17,8 +17,9 @@ categories:
   - Descriptive Statistics
   - SQL
   - SQLite
+software:
   - Python
-  - Rugby
+
 editor_options:
   chunk_output_type: console
 callout-icon: false

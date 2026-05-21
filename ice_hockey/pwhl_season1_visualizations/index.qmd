@@ -11,7 +11,8 @@ author:
       - ref: slu
 date: June 6, 2024
 description: Visualizing scoring data for players during the 2023-24 Professional Women’s Hockey League season
-
+software:
+  - R
 categories:
   - Data Visualization
   - Grouped Comparisons

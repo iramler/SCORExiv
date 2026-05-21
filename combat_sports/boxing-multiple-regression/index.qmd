@@ -17,8 +17,10 @@ categories:
   - Multiple Regression
   - Summary Statistics
   - Linear Regression
+
+software:
   - Python
-  - Boxing
+
 editor_options:
   chunk_output_type: console
 callout-icon: false

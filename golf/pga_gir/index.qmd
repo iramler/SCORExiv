@@ -18,6 +18,8 @@ categories:
   - Confidence Intervals
   - Single Proportion Hypothesis Testing
   - Comparing Two Proportions
+software:
+  - R
 editor_options:
   chunk_output_type: console
 callout-icon: false

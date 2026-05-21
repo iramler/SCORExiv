@@ -20,6 +20,8 @@ editor:
 categories:
   - Linear Regression
   - Outliers
+software:
+  - R
 ---
 
 ## Module

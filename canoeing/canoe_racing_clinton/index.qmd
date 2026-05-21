@@ -21,9 +21,8 @@ image: Marathon_C2.jpg
 categories:
   - Data Visualization
   - Data Wrangling
-#categories:
-#  - Data visualization
-#  - Data manipulation
+software:
+  - R
 ---
 
 <!--

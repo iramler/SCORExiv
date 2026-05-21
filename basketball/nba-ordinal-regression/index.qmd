@@ -14,7 +14,8 @@ editor:
   canonical: true
 categories:
   - Ordinal Regression
-
+software:
+  - R
 ---
 
 Solutions to this module are available [here](https://github.com/nick3703/WP_SCORE/raw/main/basketball/nba-ordinal-regression/NBA-Ordinal-Regression-Solutions.pdf)

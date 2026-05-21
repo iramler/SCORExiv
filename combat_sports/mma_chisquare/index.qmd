@@ -27,10 +27,11 @@ toc-location: left
 description: Exploring MMA fight decisions by weight category
 categories:
   - Variable types
-  - Chi-square test (2x2)
   - Fisher Exact test
-  - Chi-square test (rxc)
+  - Chi-square test
   - Mosaic plots
+software:
+  - R
 editor_options:
   chunk_output_type: console
 callout-icon: false

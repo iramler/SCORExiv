@@ -17,6 +17,8 @@ editor:
 categories:
   - T-test
   - Exploratory Analysis
+software:
+  - R
 ---
 
 ```{r setup, include=FALSE}

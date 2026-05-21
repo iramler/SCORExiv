@@ -13,6 +13,8 @@ categories:
   - 2D categorical data
   - chi-squared test
   - mosaic plots
+software:
+  - ISLE
 image: 500px-Justin_Verlander_(51005083107)_(cropped).jpg
 ---
 

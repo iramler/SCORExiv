@@ -21,6 +21,8 @@ editor:
 categories:
   - ANOVA
   - Post Hoc Comparisons
+software:
+  - R
 image: chen4f3t_zoomslider-900.jpg
 ---
 

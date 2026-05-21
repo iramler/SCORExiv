@@ -10,5 +10,6 @@ listing:
   filter-ui: [software]
 ---
 
-Use the filter box to search for modules by supported software, such as `R`, `Python`, or `ISLE`.
+Some modules include materials designed for specific software. Use the filter box to search for modules that include files for software, such as `R`, `Python`, `ISLE`, and `Statkey`.
 
+(_Note that many of modules are also software agnostic, or include materials that support multiple programs._)

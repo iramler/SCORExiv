@@ -16,6 +16,7 @@ editor:
 categories:
   - Joining / Merging
   - SQL
+software:
   - R
 ---
 

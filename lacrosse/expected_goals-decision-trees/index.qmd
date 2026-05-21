@@ -17,6 +17,8 @@ categories:
   - Logistic Regression 
   - Decision Trees
   - Gini index
+software:
+  - ISLE
 ---
 
 ## Module

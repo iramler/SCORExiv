@@ -32,6 +32,8 @@ categories:
   - Scatterplots
   - Ridge plots
   - Boxplots
+software:
+  - R
 editor_options:
   chunk_output_type: console
 callout-icon: false

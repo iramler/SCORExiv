@@ -12,6 +12,8 @@ description: Learning about collinearity using IOCT Data
 categories:
   - Collinearity
   - Multiple Regression
+software:
+  - ISLE
 ---
 
 
