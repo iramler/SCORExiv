@@ -1,6 +1,5 @@
 ---
-title: |
-  Berkson’s Bias: Why Offensive Rating and Height are Negatively Correlated in the NBA
+title: "Berkson’s Bias: Why Offensive Rating and Height are Negatively Correlated in the NBA"
 author:
   - name: AUTHOR NAME
     affiliations:

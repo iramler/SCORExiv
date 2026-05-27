@@ -1,6 +1,5 @@
 ---
-title: |
-  Boxing Fighter Pay - Multiple Regression
+title: Boxing Fighter Pay - Multiple Regression
 author:
   - name: Izaan Khudadad
     email: ikhudada@charlotte.edu

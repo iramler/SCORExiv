@@ -1,6 +1,5 @@
 ---
-title: |
-  Seaborn in Python Using English Premier League Data
+title: Seaborn in Python Using English Premier League Data
 author:
   - name: Austin Hayes
     affiliations:

@@ -1,6 +1,5 @@
 ---
-title: |
-  Expected Goals in Lacrosse - Support Vector Machines
+title: Expected Goals in Lacrosse - Support Vector Machines
 author:
   - name: Gunnar Fellows
     affiliations:

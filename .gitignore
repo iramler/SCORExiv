@@ -12,6 +12,10 @@ docs/
 .Rhistory
 .Rapp.history
 
+# Metadata files
+_metadata_exports/
+scorexiv_module_categories_extraction.R
+
 # Session Data files
 .RData
 .RDataTmp

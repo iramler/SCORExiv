@@ -1,6 +1,5 @@
 ---
-title: |
-  Introduction to Regression Trees with Climbing Data
+title: Introduction to Regression Trees with Climbing Data
 author:
   - name: Izaan Khudadad
     email: ikhudada@charlotte.edu

@@ -1,6 +1,5 @@
 ---
-title: |
-  Intro to SQL with SQLite: Exploring International Rugby Matches
+title: "Intro to SQL with SQLite: Exploring International Rugby Matches"
 author:
   - name: Izaan Khudadad
     email: ikhudada@charlotte.edu

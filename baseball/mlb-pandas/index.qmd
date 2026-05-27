@@ -1,6 +1,5 @@
 ---
-title: |
-  Learning the Basics of Pandas in Python Using 2024 MLB Team Batting Data
+title: Learning the Basics of Pandas in Python Using 2024 MLB Team Batting Data
 author:
   - name: Austin Hayes
     email: ahayes65@charlotte.edu
